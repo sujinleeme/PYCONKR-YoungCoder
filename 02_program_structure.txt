@@ -1,8 +1,0 @@
-:chap_num: 1
-:prev_link: 01_values
-:docid: values
-
-= Values, Types, and Operators =
-
-[chapterquote="true"]
-[quote, Master Yuan-Ma, The Book of Programming]
