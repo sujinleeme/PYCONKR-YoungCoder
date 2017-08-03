@@ -1,0 +1,24 @@
+{
+  "name": "sujinleeme",
+  "license": "CC BY-NC 3.0",
+  "version": "0.1.0",
+  "author": "Sujin Lee <sujinlee.me@gmail.com>",
+  "description": "Sources for the book PYCON KR YOUNGCODER TUTORIAL",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sujinleeme/PYCONKR-YoungCoder.git"
+  },
+  "dependencies": {
+    "acorn": "^5.1.1",
+    "codemirror": "4",
+    "contextify": "^0.1.15",
+    "jszip": "^2.5.0",
+    "node-gyp": "^3.6.2",
+    "uglify-js": "3.0.27"
+  },
+  "devDependencies": {
+    "jsdom": "11.1.0",
+    "promise": "8.0.1",
+    "jszip": "3.1.3"
+  }
+}
