@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="/css/main.css">
 
   <title>
-     파이콘한국 영코더 튜토리얼 - PYCONKR Young Coder Tutorial
+     파이썬과 말해봐요 - (문자열) 문자의 위치 찾기
     
   </title>
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
@@ -63,50 +63,50 @@
 
 
   <body>
-    	
-    <h3><a href="/01/">프로그래밍은 무엇일까요?</a></h3>
-	
-    <h3><a href="/02/">컴퓨터도 알아봅시다!</a></h3>
-	
-    <h3><a href="/03/">알고리즘</a></h3>
-	
-    <h3><a href="/04/">파이썬과 말해봐요 - 어떻게 말하면 될까요?</a></h3>
-	
-    <h3><a href="/05/">파이썬과 말해봐요 - 덧셈과 뺄셈</a></h3>
-	
-    <h3><a href="/06/">파이썬과 말해봐요 - (수학) 나누기와 곱하기</a></h3>
-	
-    <h3><a href="/07/">파이썬과 말해봐요 - (수학) 소수점</a></h3>
-	
-    <h3><a href="/08/">파이썬과 말해봐요 - (수학) 소수점을 정수로 만들기</a></h3>
-	
-    <h3><a href="/09/">파이썬과 말해봐요 - (수학) 참과 거짓</a></h3>
-	
-    <h3><a href="/10/">파이썬과 말해봐요 - (문자열) 입력하기</a></h3>
-	
-    <h3><a href="/11/">파이썬과 말해봐요 - (문자열) 단어와 단어를 연결하기</a></h3>
-	
-    <h3><a href="/12/">파이썬과 말해봐요 - (문자열) 문자의 위치 찾기</a></h3>
-	
-    <h3><a href="/13/">파이썬과 말해봐요 - (문자열) 배운 내용 정리하기</a></h3>
-	
-    <h3><a href="/14/">파이썬과 말해봐요 - (변수) 이름을 붙여주세요</a></h3>
-	
-    <h3><a href="/15/">파이썬과 말해봐요 - (변수) 이름을 바꿔주세요</a></h3>
-	
-    <h3><a href="/16/">파이썬과 말해봐요 - (변수) 정리해봅시다</a></h3>
-	
-    <h3><a href="/17/">파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?</a></h3>
-	
-    <h3><a href="/18/">파이썬과 말해봐요 - (변수) 위치를 찾아보세요</a></h3>
-	
-    <h3><a href="/19/">파이썬과 말해봐요 - (변수) 서로 비교해보세요</a></h3>
-	
+    <h1 class="post-title">파이썬과 말해봐요 - (문자열) 문자의 위치 찾기</h1>
+    <article class="post-content">
+      <div class="language-python summary highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="s">"Hello"</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="s">"Hello"</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="s">"Hey, Bob!"</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="s">"Hey, Bob!"</span><span class="p">[</span><span class="mi">6</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+</code></pre>
+</div>
 
+<p>It’s pretty easy to figure out indexes when we can count by hand. Now let’s try doing it programmatically (that is, using Python).</p>
+
+<p>Try the first example. At your prompt, type the word ‘print’, then inside parentheses, the word “Hello” in quotes, and finally these “square brackets” with the number zero inside. Then hit Enter.</p>
+
+<p>Since we’re asking for the character in this string with an index of zero, Python returns the letter ‘H’.</p>
+
+<p>Now let’s try the second example, asking Python for the character with an index of four. Did you get the letter ‘o’? Let’s see why.</p>
+
+<p>If we start at the beginning of the string, the letter ‘H’ has an index of zero. Then index one is the letter ‘e’, indexes two and three are ‘l’. And index four is the letter ‘o’.</p>
+
+<p>Okay, let’s try some longer examples. Let’s type the word ‘print’, then in quotes “Hey”, comma, space, “Bob”, exclamation point. Then right next to that, inside square brackets, type the number four and hit Enter.</p>
+
+<p>Did Python return anything? Are you sure? Let’s count by hand and see what the character at index four is. Remember to start with zero - that’s the letter ‘H’. Index one is the letter ‘e’, two is the letter ‘y’, three is the comma, and four is the space. Is that what Python returned?</p>
+
+<p>Okay, one last example. We already know that we can enter an index number inside the square brackets to find its matching character in the string.</p>
+
+<p>But we can also do math inside the square brackets. Here we’re subtracting one from six, which is … five. So what is the character at the fifth index in this string?</p>
+
+<p>Go ahead and type this expression to find out.</p>
+
+    </article>
   </body>
   
 <ul class="posts posts--previous-next">
+   
+    <li>
+      <h4 class="pagination-title"><a href="/11/">파이썬과 말해봐요 - (문자열) 단어와 단어를 연결하기</a></h4>
+      <p class="pagination-description"></p>
+    </li>
   
+   
+    <li>
+      <h4 class="pagination-title"><a href="/13/">파이썬과 말해봐요 - (문자열) 배운 내용 정리하기</a></h4>
+      <p class="pagination-description"></p>
+    </li>
   
 </ul>
 

@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="/css/main.css">
 
   <title>
-     파이콘한국 영코더 튜토리얼 - PYCONKR Young Coder Tutorial
+     파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?
     
   </title>
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
@@ -63,50 +63,78 @@
 
 
   <body>
-    	
-    <h3><a href="/01/">프로그래밍은 무엇일까요?</a></h3>
-	
-    <h3><a href="/02/">컴퓨터도 알아봅시다!</a></h3>
-	
-    <h3><a href="/03/">알고리즘</a></h3>
-	
-    <h3><a href="/04/">파이썬과 말해봐요 - 어떻게 말하면 될까요?</a></h3>
-	
-    <h3><a href="/05/">파이썬과 말해봐요 - 덧셈과 뺄셈</a></h3>
-	
-    <h3><a href="/06/">파이썬과 말해봐요 - (수학) 나누기와 곱하기</a></h3>
-	
-    <h3><a href="/07/">파이썬과 말해봐요 - (수학) 소수점</a></h3>
-	
-    <h3><a href="/08/">파이썬과 말해봐요 - (수학) 소수점을 정수로 만들기</a></h3>
-	
-    <h3><a href="/09/">파이썬과 말해봐요 - (수학) 참과 거짓</a></h3>
-	
-    <h3><a href="/10/">파이썬과 말해봐요 - (문자열) 입력하기</a></h3>
-	
-    <h3><a href="/11/">파이썬과 말해봐요 - (문자열) 단어와 단어를 연결하기</a></h3>
-	
-    <h3><a href="/12/">파이썬과 말해봐요 - (문자열) 문자의 위치 찾기</a></h3>
-	
-    <h3><a href="/13/">파이썬과 말해봐요 - (문자열) 배운 내용 정리하기</a></h3>
-	
-    <h3><a href="/14/">파이썬과 말해봐요 - (변수) 이름을 붙여주세요</a></h3>
-	
-    <h3><a href="/15/">파이썬과 말해봐요 - (변수) 이름을 바꿔주세요</a></h3>
-	
-    <h3><a href="/16/">파이썬과 말해봐요 - (변수) 정리해봅시다</a></h3>
-	
-    <h3><a href="/17/">파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?</a></h3>
-	
-    <h3><a href="/18/">파이썬과 말해봐요 - (변수) 위치를 찾아보세요</a></h3>
-	
-    <h3><a href="/19/">파이썬과 말해봐요 - (변수) 서로 비교해보세요</a></h3>
-	
+    <h1 class="post-title">파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?</h1>
+    <article class="post-content">
+      <p class="summary">Math operations</p>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">donuts</span> <span class="o">=</span> <span class="mi">12</span> <span class="o">*</span> <span class="mi">12</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">fishes</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">fishes</span> <span class="o">+</span> <span class="n">donuts</span>
+</code></pre>
+</div>
+<p>String operations</p>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">color</span> <span class="o">=</span> <span class="s">"yellow"</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">day</span> <span class="o">=</span> <span class="err">“</span><span class="n">Monday</span><span class="err">”</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">color</span> <span class="o">+</span> <span class="n">day</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">color</span> <span class="o">*</span> <span class="n">fishes</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">color</span> <span class="o">+</span> <span class="n">day</span> <span class="o">*</span> <span class="n">fishes</span>
+</code></pre>
+</div>
 
+<p>We can also use variables to do some of the same things we do with numbers and strings.</p>
+
+<p>Let’s create a couple of variables and give them numeric values. We can use our donuts example from earlier, and also create one new variable. I’m going to give that new variable a value of three.</p>
+
+<p>Now what happens if we add the two variables? Is the answer what you expect?</p>
+
+<p>Go ahead and try some other math operations with these two variables. You can subtract, divide, multiply, even compare them.</p>
+
+<p>And we can do some of the same things with variables that have string values.</p>
+
+<p>Let’s create two more variables - color equals yellow and day equals Monday.</p>
+
+<p>The first thing we’ll do is put them together with a plus sign. Do you remember what the plus sign does for strings? It concatenates them.</p>
+
+<p>And what happens if we multiply a variable with a string value by a variable with a number value?</p>
+
+<p>Now let’s look at this expression where we add and multiply. What do you think Python will return here? Let’s type this at our prompt and find out.</p>
+
+<p>Was that the answer you expected? Okay, let’s break this down and see what happened. Our expression is color plus day times fishes. We know that color is yellow, day is Monday, and fishes is three.</p>
+
+<p>So when we asked Python to calculate - or EVALUATE - this expression, what did it return? Let’s take a look.</p>
+
+<p>(‘yellowMondayMondayMonday’)</p>
+
+<p>You might have been expecting Python to concatenate color and day first, and then multiply those strings times three.</p>
+
+<p>Do you remember when we talked about order of operations earlier? Maybe not? Okay, let’s recap that then. “Order of operations” is a rule that determines which parts of an expression are calculated first. In most programming languages, multiplication is always done before adding or subtracting. So in this case, Python did the multiplication side of the operation first - so you got the word Monday three times - and then concatenated that with the word yellow.</p>
+
+<p>But if you wanted the addition to be done first, there is a different way you could write this expression. You could put parentheses around “color plus day”.</p>
+
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <p>(color + day) * fishes</p>
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+<p>In that case, the string “yellow” would be concatenated with the string “Monday” first, and then the whole thing would be multiplied by three. So instead of yellowMondayMondayMonday, you’d end up with yellowMondayyellowMondayyellowMonday.</p>
+
+    </article>
   </body>
   
 <ul class="posts posts--previous-next">
+   
+    <li>
+      <h4 class="pagination-title"><a href="/16/">파이썬과 말해봐요 - (변수) 정리해봅시다</a></h4>
+      <p class="pagination-description"></p>
+    </li>
   
+   
+    <li>
+      <h4 class="pagination-title"><a href="/18/">파이썬과 말해봐요 - (변수) 위치를 찾아보세요</a></h4>
+      <p class="pagination-description"></p>
+    </li>
   
 </ul>
 
