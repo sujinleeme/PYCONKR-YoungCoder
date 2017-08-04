@@ -1,6 +1,7 @@
-
+<div class="wrapper">
 <ul class="posts posts--previous-next">
   {% if page.previous %} 
+  
     <li>
       <h4 class="pagination-title"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></h4>
       <p class="pagination-description">{{ page.previous.description }}</p>
@@ -13,3 +14,4 @@
     </li>
   {% endif %}
 </ul>
+</div>

@@ -6,12 +6,17 @@
   {% include header.html %}
 
   <body>
-    {% for post in site.posts reversed%}	
+    <main class="page-content">
+    <div class="wrapper">
+
+    {% for post in site.posts reversed%}
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-{% endfor %}	
-
-  </body>
+    {% endfor %}
   {% include pagination.html %}
-
+      </div>
   {% include footer.html %}
+  
+  </body>
+</div>
+
 </html>

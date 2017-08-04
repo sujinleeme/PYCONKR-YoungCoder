@@ -6,12 +6,15 @@
   {% include header.html %}
 
   <body>
+    <main class="page-content">
+    <div class="wrapper">
     <h1 class="post-title">{{ page.title }}</h1>
-    <article class="post-content">
+    <article>
       {{content}}
     </article>
-  </body>
-  {% include pagination.html %}
-
+      {% include pagination.html %}
+    </main>
   {% include footer.html %}
+  </body>
+</div>
 </html>
