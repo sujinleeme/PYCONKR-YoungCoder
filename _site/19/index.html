@@ -4,24 +4,50 @@
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="/css/main.css">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="```python            “friend” * 5‘friendfriendfriendfriendfriend’      ">
+  <meta property="og:site_name" content="파이콘코리아 영코더 튜토리얼 - PYCONKR Young Coder Tutorial">
+  
+  <meta property="og:title" content="파이썬과 말해봐요 - (에러) 오류가 발생했어요">
+  <meta property="og:type" content="article">
+  <meta property="og:description" content="```python
 
+  
+    
+      “friend” * 5
+‘friendfriendfriendfriendfriend’
+    
+  
+
+
+"/>
+  
+  
+  <meta property="article:published_time" content="2017-08-04T00:00:00+09:00">
+  <meta property="article:author" content="http://localhost:4000/about/">
+  
+  <meta property="og:url" content="http://localhost:4000/19/" />
+  
+  <meta itemprop="keywords" content="" />
+  
+  
+  
+  <link rel="stylesheet" href="/PYCONKR-YoungCoder/static/compiled.css">
   <title>
-     파이썬과 말해봐요 - (변수) 서로 비교해보세요
+     파이썬과 말해봐요 - (에러) 오류가 발생했어요
     
   </title>
-  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-">
-  <meta name="viewport" content="width=device-width">
+  <!-- stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
 </head>
 
 
-  <header class="site-header" role="banner">
+    <header class="site-header" role="banner">
 
   <div class="wrapper">
     
     
-    <a class="site-title" href="/">파이콘한국 영코더 튜토리얼 - PYCONKR Young Coder Tutorial</a>
+    <a class="site-title" href="/PYCONKR-YoungCoder/">파이콘코리아 영코더 튜토리얼 - PYCONKR Young Coder Tutorial</a>
   
     
       <nav class="site-nav">
@@ -37,24 +63,6 @@
         </label>
 
         <div class="trigger">
-          
-            
-            
-          
-            
-            
-            <a class="page-link" href="/about/">About</a>
-            
-          
-            
-            
-          
-            
-            
-          
-            
-            
-          
         </div>
       </nav>
     
@@ -63,58 +71,67 @@
 
 
   <body>
-    <h1 class="post-title">파이썬과 말해봐요 - (변수) 서로 비교해보세요</h1>
-    <article class="post-content">
-      <p class="summary">Assigning values or making comparisons?</p>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">fruit</span> <span class="o">=</span> <span class="s">"watermelon"</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="mi">5</span> <span class="o">=</span> <span class="mi">6</span>
+    <main class="page-content">
+    <div class="wrapper">
+    <h1 class="post-title">파이썬과 말해봐요 - (에러) 오류가 발생했어요</h1>
+    <article>
+      <div class="language-python summary highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="s">"friend"</span> <span class="o">*</span> <span class="mi">5</span>
+<span class="err">‘</span><span class="n">friendfriendfriendfriendfriend</span><span class="err">’</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="s">"friend"</span> <span class="o">+</span> <span class="mi">5</span>
+<span class="n">Error</span>
 </code></pre>
 </div>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">fruit</span> <span class="o">==</span> <span class="s">"watermelon"</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">6</span>
+<div class="highlighter-rouge"><pre class="highlight"><code>Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+TypeError: Can't convert 'int' object to str implicitly
 </code></pre>
 </div>
+<ul>
+  <li>What do you think ‘str’ and ‘int’ mean here?</li>
+  <li>Does this error message tell you what’s wrong?</li>
+</ul>
 
-<p>Here’s one last thing I want to add before we move on - and this doesn’t just apply to variables, but to strings and numbers as well.</p>
+<p>Now we’re going to talk about something that’s really important in programming - errors and error messages.</p>
 
-<p>When we create a variable and give it a value, we use a single equals sign to assign that value.</p>
+<p>Error messages are our friends - they’re a good thing, because they tell us what went wrong.  Without error messages, it’s hard to fix something that’s broken.</p>
 
-<p>But remember earlier when we were working with numbers and we used the double equals sign to do comparisons?</p>
+<p>Try entering these expressions and see what answers Python gives you.  The first expression multiplies the word ‘friend’ and prints it 5 times.</p>
 
-<p>One equal sign or two? How can you remember which one to use?</p>
-
-<p>Well here’s how I remember.</p>
-
-<p>When we’re assigning a value, we’re just saying “this equals that”. That’s a short sentence, so it only gets one equal sign.</p>
-
-<p>But when we’re comparing values, we’re asking “is this thing equal to that thing?”. And that’s a longer sentence, so it gets two equal signs.</p>
+<p>What is the second expression supposed to do?  Should it concatenate “friend” and 5?  What happens instead?</p>
 
     </article>
-  </body>
-  
+      <div class="wrapper">
 <ul class="posts posts--previous-next">
    
+  
     <li>
-      <h4 class="pagination-title"><a href="/18/">파이썬과 말해봐요 - (변수) 위치를 찾아보세요</a></h4>
+      <h4 class="pagination-title"><a href="/PYCONKR-YoungCoder/18/">파이썬과 말해봐요 - (변수) 서로 비교해보세요</a></h4>
       <p class="pagination-description"></p>
     </li>
   
+   
+    <li>
+      <h4 class="pagination-title"><a href="/PYCONKR-YoungCoder/20/">파이썬과 말해봐요 - (에러) 오류를 읽어보아요</a></h4>
+      <p class="pagination-description"></p>
+    </li>
   
 </ul>
+</div>
 
-
+    </main>
   <footer class="site-footer">
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">파이콘한국 영코더 튜토리얼 - PYCONKR Young Coder Tutorial</h2>
+    <h2 class="footer-heading">파이콘코리아 영코더 튜토리얼 - PYCONKR Young Coder Tutorial</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>
             
-              파이콘한국 영코더 튜토리얼 - PYCONKR Young Coder Tutorial
+              파이콘코리아 영코더 튜토리얼 - PYCONKR Young Coder Tutorial
             
             </li>
             
@@ -144,8 +161,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</p>
+        <p>파이콘코리아 2017</p>
       </div>
     </div>
 
@@ -153,4 +169,6 @@
 
 </footer>
 
+  </body>
+</div>
 </html>

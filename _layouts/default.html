@@ -4,14 +4,25 @@
   {% include head.html %}
 
   {% include header.html %}
+  {% assign author = site.data.authors[page.author] %}
+  {% if page.date_modified %}
+  {% assign modified = page.date_modified %}
+  {% else %}
+  {% assign modified = page.date %}
+  {% endif %}
 
   <body>
-    {% for post in site.posts reversed%}	
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-{% endfor %}	
+    <main class="page-content">
+    <div class="wrapper">
 
-  </body>
+    {% for post in site.posts reversed%}
+    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+    {% endfor %}
   {% include pagination.html %}
-
+      </div>
   {% include footer.html %}
+  
+  </body>
+</div>
+
 </html>
