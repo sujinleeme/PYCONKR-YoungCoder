@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="/PYCONKR-YoungCoder/static/compiled.css">
 
   <title>
-     파이썬과 말해봐요 - (변수) 이름을 바꿔주세요
+     파이썬과 말해봐요 - (에러) 오류를 고쳐보세요
     
   </title>
   <meta name="description" content="파이콘코리아 2017">
@@ -47,34 +47,30 @@
   <body>
     <main class="page-content">
     <div class="wrapper">
-    <h1 class="post-title">파이썬과 말해봐요 - (변수) 이름을 바꿔주세요</h1>
+    <h1 class="post-title">파이썬과 말해봐요 - (에러) 오류를 고쳐보세요</h1>
     <article>
-      <p class="summary">Create a variable and give it a value:</p>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">color</span> <span class="o">=</span> <span class="s">"yellow"</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">color</span>
- <span class="s">'yellow'</span>
+      <div class="summary highlighter-rouge"><pre class="highlight"><code>&gt;&gt;&gt; "friend" + 5
+Error
 </code></pre>
 </div>
-<p>Now assign a new value:</p>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">color</span> <span class="o">=</span> <span class="s">"red"</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">color</span>
- <span class="s">'red'</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">color</span> <span class="o">=</span> <span class="s">"fish"</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">color</span> <span class="o">=</span> <span class="mi">12</span>
+<p>How can we fix this error?
+Concatenation won’t work.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt;&gt;&gt; "friend" + "5"
+friend5 
+</code></pre>
+</div>
+<p>What if we make 5 a string?</p>
+
+<p>What’s another way that we could fix this error?
+Let’s do something new with the print command:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt;&gt;&gt; print("friend", 5)
+friend 5
 </code></pre>
 </div>
 
-<p>일단 변수를 만들면 새로운 값으로 다시 바꿀 수 있습니다.</p>
-
-<p>위 예제를 입력해보세요. ‘color’라는 이름의 변수를 만든 다음 ‘yellow’라는 문자열 값을 부여합니다.</p>
-
-<p>그런 다음 ‘color’라는 단어를 입력하고 Enter 키를 누르면 Python은 변수 ‘노란색’의 값을 반환합니다.</p>
-
-<p>이제 ‘color’에 새로운 값을 넣어보세요. 계속해서 두 번째 예제를 작성하면서 입력하세요. 변수에 따옴표가 없지만 새 값인 ‘red’는 문자열이므로 따옴표가 붙습니다.</p>
-
-<p>변수 이름을 다시 입력하면 새 값이 표시됩니다.</p>
-
-<p>다른 문자열이나 숫자와 같은 다른 새로운 값을 변수에 넣어보세요.</p>
+<p>(point out the comma used with the print command, and how it adds a space between the two objects)</p>
 
     </article>
       <div class="wrapper">
@@ -82,15 +78,10 @@
    
   
     <li>
-      <h4 class="pagination-title"><a href="/PYCONKR-YoungCoder/14/">파이썬과 말해봐요 - (변수) 이름을 붙여주세요</a></h4>
+      <h4 class="pagination-title"><a href="/PYCONKR-YoungCoder/20/">파이썬과 말해봐요 - (에러) 오류를 읽어보아요</a></h4>
       <p class="pagination-description"></p>
     </li>
   
-   
-    <li>
-      <h4 class="pagination-title"><a href="/PYCONKR-YoungCoder/16/">파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?</a></h4>
-      <p class="pagination-description"></p>
-    </li>
   
 </ul>
 </div>

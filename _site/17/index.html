@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="/PYCONKR-YoungCoder/static/compiled.css">
 
   <title>
-     파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?
+     파이썬과 말해봐요 - (변수) 위치를 찾아보세요
     
   </title>
   <meta name="description" content="파이콘코리아 2017">
@@ -47,62 +47,31 @@
   <body>
     <main class="page-content">
     <div class="wrapper">
-    <h1 class="post-title">파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?</h1>
+    <h1 class="post-title">파이썬과 말해봐요 - (변수) 위치를 찾아보세요</h1>
     <article>
-      <p class="summary">Math operations</p>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">donuts</span> <span class="o">=</span> <span class="mi">12</span> <span class="o">*</span> <span class="mi">12</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">fishes</span> <span class="o">=</span> <span class="mi">3</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">fishes</span> <span class="o">+</span> <span class="n">donuts</span>
-</code></pre>
-</div>
-<p>String operations</p>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">color</span> <span class="o">=</span> <span class="s">"yellow"</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">day</span> <span class="o">=</span> <span class="err">“</span><span class="n">Monday</span><span class="err">”</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">color</span> <span class="o">+</span> <span class="n">day</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">color</span> <span class="o">*</span> <span class="n">fishes</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">color</span> <span class="o">+</span> <span class="n">day</span> <span class="o">*</span> <span class="n">fishes</span>
+      <p class="summary">변수로 할 수 있는 일 :
+문자열에서 색인 가져 오기 :</p>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">fruit</span> <span class="o">=</span> <span class="s">"watermelon"</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span> <span class="p">(</span><span class="n">fruit</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
 </code></pre>
 </div>
 
-<p>We can also use variables to do some of the same things we do with numbers and strings.</p>
+<p>변수로 가지고 더 많은 것들을 해볼 수 있어요.</p>
 
-<p>Let’s create a couple of variables and give them numeric values. We can use our donuts example from earlier, and also create one new variable. I’m going to give that new variable a value of three.</p>
+<p>문자열에서 색인에 대해 이야기 했었죠? INDEX는 문자열에 있는 문자의 위치를 말해요. 글쎄, 변수가 문자열인 값을 가지고 있다면, 이를 통해 인덱스, 위치를 얻을 수 있어요.</p>
 
-<p>Now what happens if we add the two variables? Is the answer what you expect?</p>
+<p>첫 번째 예제를 해볼까요. 이 단원의 앞부분에서 <code class="highlighter-rouge">fruit</code>라는 변수를 이미 만들었을 거에요. 이제 해당 변수의 문자열 값에서 두번째에 있는 알파벳 문자를 찾아보세요.</p>
 
-<p>Go ahead and try some other math operations with these two variables. You can subtract, divide, multiply, even compare them.</p>
+<p>대괄호 <code class="highlighter-rouge">[]</code>안에 명령, 변수 및 숫자를 입력합니다. 엔터키를 누르니 예상했던 알파벳 문자가 나왔나요?</p>
 
-<p>And we can do some of the same things with variables that have string values.</p>
+<p>그리고 마지막으로 쉬운 예가 하나 있습니다. 우리는 변수를 사용하여 수학을 할 수있는 몇 가지 방법을 이미 보았습니다. 여기에 또 다른 방법이 있습니다. 대괄호 안에 변수를 사용하여 숫자를 계산할 수 있습니다.</p>
 
-<p>Let’s create two more variables - color equals yellow and day equals Monday.</p>
+<p>이 예제를 입력하고 ‘mynumber’변수를 만든 다음 ‘fruit’변수에서 인덱스를 가져와 보세요.</p>
 
-<p>The first thing we’ll do is put them together with a plus sign. Do you remember what the plus sign does for strings? It concatenates them.</p>
-
-<p>And what happens if we multiply a variable with a string value by a variable with a number value?</p>
-
-<p>Now let’s look at this expression where we add and multiply. What do you think Python will return here? Let’s type this at our prompt and find out.</p>
-
-<p>Was that the answer you expected? Okay, let’s break this down and see what happened. Our expression is color plus day times fishes. We know that color is yellow, day is Monday, and fishes is three.</p>
-
-<p>So when we asked Python to calculate - or EVALUATE - this expression, what did it return? Let’s take a look.</p>
-
-<p>(‘yellowMondayMondayMonday’)</p>
-
-<p>You might have been expecting Python to concatenate color and day first, and then multiply those strings times three.</p>
-
-<p>Do you remember when we talked about order of operations earlier? Maybe not? Okay, let’s recap that then. “Order of operations” is a rule that determines which parts of an expression are calculated first. In most programming languages, multiplication is always done before adding or subtracting. So in this case, Python did the multiplication side of the operation first - so you got the word Monday three times - and then concatenated that with the word yellow.</p>
-
-<p>But if you wanted the addition to be done first, there is a different way you could write this expression. You could put parentheses around “color plus day”.</p>
-
-<blockquote>
-  <blockquote>
-    <blockquote>
-      <p>(color + day) * fishes</p>
-    </blockquote>
-  </blockquote>
-</blockquote>
-
-<p>In that case, the string “yellow” would be concatenated with the string “Monday” first, and then the whole thing would be multiplied by three. So instead of yellowMondayMondayMonday, you’d end up with yellowMondayyellowMondayyellowMonday.</p>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">mynumber</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span> <span class="p">(</span><span class="n">fruit</span><span class="p">[</span><span class="n">mynumber</span><span class="o">-</span><span class="mi">2</span><span class="p">])</span>
+</code></pre>
+</div>
 
     </article>
       <div class="wrapper">
@@ -110,13 +79,13 @@
    
   
     <li>
-      <h4 class="pagination-title"><a href="/PYCONKR-YoungCoder/16/">파이썬과 말해봐요 - (변수) 정리해봅시다</a></h4>
+      <h4 class="pagination-title"><a href="/PYCONKR-YoungCoder/16/">파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?</a></h4>
       <p class="pagination-description"></p>
     </li>
   
    
     <li>
-      <h4 class="pagination-title"><a href="/PYCONKR-YoungCoder/18/">파이썬과 말해봐요 - (변수) 위치를 찾아보세요</a></h4>
+      <h4 class="pagination-title"><a href="/PYCONKR-YoungCoder/18/">파이썬과 말해봐요 - (변수) 서로 비교해보세요</a></h4>
       <p class="pagination-description"></p>
     </li>
   

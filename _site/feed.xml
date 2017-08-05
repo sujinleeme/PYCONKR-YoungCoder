@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/PYCONKR-YoungCoder/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/PYCONKR-YoungCoder/" rel="alternate" type="text/html" /><updated>2017-08-05T14:19:34+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/</id><title type="html">파이콘코리아 영코더 튜토리얼 - PYCONKR Young Coder Tutorial</title><subtitle>파이콘코리아 2017</subtitle><entry><title type="html">파이썬과 말해봐요 - (변수) 서로 비교해보세요</title><link href="http://localhost:4000/PYCONKR-YoungCoder/19/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 서로 비교해보세요" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/19</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/19/">&lt;p class=&quot;summary&quot;&gt;값을 할당하거나 서로 값을 비교해보세요&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/PYCONKR-YoungCoder/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/PYCONKR-YoungCoder/" rel="alternate" type="text/html" /><updated>2017-08-05T14:34:59+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/</id><title type="html">파이콘코리아 영코더 튜토리얼 - PYCONKR Young Coder Tutorial</title><subtitle>파이콘코리아 2017</subtitle><entry><title type="html">파이썬과 말해봐요 - (에러) 오류를 고쳐보세요</title><link href="http://localhost:4000/PYCONKR-YoungCoder/21/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (에러) 오류를 고쳐보세요" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/21</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/21/">&lt;div class=&quot;summary highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &quot;friend&quot; + 5
+Error
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;How can we fix this error?
+Concatenation won’t work.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &quot;friend&quot; + &quot;5&quot;
+friend5 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;What if we make 5 a string?&lt;/p&gt;
+
+&lt;p&gt;What’s another way that we could fix this error?
+Let’s do something new with the print command:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; print(&quot;friend&quot;, 5)
+friend 5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;(point out the comma used with the print command, and how it adds a space between the two objects)&lt;/p&gt;</content><author><name></name></author><summary type="html">&amp;gt;&amp;gt;&amp;gt; &quot;friend&quot; + 5 Error How can we fix this error? Concatenation won’t work.</summary></entry><entry><title type="html">파이썬과 말해봐요 - (에러) 오류를 읽어보아요</title><link href="http://localhost:4000/PYCONKR-YoungCoder/20/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (에러) 오류를 읽어보아요" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/20</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/20/">&lt;div class=&quot;language-python summary highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;friend&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Traceback&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;most&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;recent&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;call&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;File&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;stdin&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Can&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'t convert '&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;' object to str implicitly&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;    ^              ^       ^              ^&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;‘int’ is an integer&lt;/li&gt;
+  &lt;li&gt;‘str’ is a string&lt;/li&gt;
+  &lt;li&gt;Python cannot concatenate objects of different types&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now let’s take a look at that error message and see what it’s really telling us.&lt;/p&gt;
+
+&lt;p&gt;The first two lines are pretty common to all error messages, so they won’t really help us much here.  But the last line gives us some valuable information.&lt;/p&gt;
+
+&lt;p&gt;We tried to concatenate two pieces of data - which Python calls ‘objects’ - the string “friend” and the number 5.  But Python isn’t able to concatenate those two objects because they’re of different types.  And so we get what’s called a “TypeError”.&lt;/p&gt;</content><author><name></name></author><summary type="html">&amp;gt;&amp;gt;&amp;gt; &quot;friend&quot; + 5 Traceback (most recent call last): File &quot;&amp;lt;stdin&amp;gt;&quot;, line 1, in &amp;lt;module&amp;gt; TypeError: Can't convert 'int' object to str implicitly ^ ^ ^ ^ ‘int’ is an integer ‘str’ is a string Python cannot concatenate objects of different types</summary></entry><entry><title type="html">파이썬과 말해봐요 - (에러) 오류가 발생했어요</title><link href="http://localhost:4000/PYCONKR-YoungCoder/19/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (에러) 오류가 발생했어요" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/19</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/19/">&lt;div class=&quot;language-python summary highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;friend&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;‘&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;friendfriendfriendfriendfriend&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;’&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;friend&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Error&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Traceback (most recent call last):
+  File &quot;&amp;lt;stdin&amp;gt;&quot;, line 1, in &amp;lt;module&amp;gt;
+TypeError: Can't convert 'int' object to str implicitly
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;What do you think ‘str’ and ‘int’ mean here?&lt;/li&gt;
+  &lt;li&gt;Does this error message tell you what’s wrong?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now we’re going to talk about something that’s really important in programming - errors and error messages.&lt;/p&gt;
+
+&lt;p&gt;Error messages are our friends - they’re a good thing, because they tell us what went wrong.  Without error messages, it’s hard to fix something that’s broken.&lt;/p&gt;
+
+&lt;p&gt;Try entering these expressions and see what answers Python gives you.  The first expression multiplies the word ‘friend’ and prints it 5 times.&lt;/p&gt;
+
+&lt;p&gt;What is the second expression supposed to do?  Should it concatenate “friend” and 5?  What happens instead?&lt;/p&gt;</content><author><name></name></author><summary type="html">```python “friend” * 5 ‘friendfriendfriendfriendfriend’</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 서로 비교해보세요</title><link href="http://localhost:4000/PYCONKR-YoungCoder/18/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 서로 비교해보세요" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/18</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/18/">&lt;p class=&quot;summary&quot;&gt;값을 할당하거나 서로 값을 비교해보세요&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fruit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;watermelon&quot;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
@@ -21,7 +82,7 @@
 
 &lt;p&gt;우리가 새로운 변수, 즉 값을 만들 때는, “이건 저거야” 라고 말하는 것과 같아요. 짧은 문장이니 등호 하나만 사용하는 거에요.&lt;/p&gt;
 
-&lt;p&gt;그러나 두 값을 서로 비교할 때, “이 값과 다른 값이 똑같을까?” 라고 묻는 거에요. 그럼 더 문장이 길어지겠죠? 이 경우에는 등호 두개 (&lt;code class=&quot;highlighter-rouge&quot;&gt;==&lt;/code&gt;)를 사용합니다.&lt;/p&gt;</content><author><name></name></author><summary type="html">값을 할당하거나 서로 값을 비교해보세요</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 위치를 찾아보세요</title><link href="http://localhost:4000/PYCONKR-YoungCoder/18/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 위치를 찾아보세요" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/18</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/18/">&lt;p class=&quot;summary&quot;&gt;변수로 할 수 있는 일 :
+&lt;p&gt;그러나 두 값을 서로 비교할 때, “이 값과 다른 값이 똑같을까?” 라고 묻는 거에요. 그럼 더 문장이 길어지겠죠? 이 경우에는 등호 두개 (&lt;code class=&quot;highlighter-rouge&quot;&gt;==&lt;/code&gt;)를 사용합니다.&lt;/p&gt;</content><author><name></name></author><summary type="html">값을 할당하거나 서로 값을 비교해보세요</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 위치를 찾아보세요</title><link href="http://localhost:4000/PYCONKR-YoungCoder/17/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 위치를 찾아보세요" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/17</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/17/">&lt;p class=&quot;summary&quot;&gt;변수로 할 수 있는 일 :
 문자열에서 색인 가져 오기 :&lt;/p&gt;
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fruit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;watermelon&quot;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fruit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
@@ -43,7 +104,7 @@
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mynumber&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fruit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mynumber&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">변수로 할 수 있는 일 : 문자열에서 색인 가져 오기 : &amp;gt;&amp;gt;&amp;gt; fruit = &quot;watermelon&quot; &amp;gt;&amp;gt;&amp;gt; print (fruit[2])</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?</title><link href="http://localhost:4000/PYCONKR-YoungCoder/17/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/17</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/17/">&lt;p class=&quot;summary&quot;&gt;Math operations&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">변수로 할 수 있는 일 : 문자열에서 색인 가져 오기 : &amp;gt;&amp;gt;&amp;gt; fruit = &quot;watermelon&quot; &amp;gt;&amp;gt;&amp;gt; print (fruit[2])</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?</title><link href="http://localhost:4000/PYCONKR-YoungCoder/16/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/16</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/16/">&lt;p class=&quot;summary&quot;&gt;Math operations&lt;/p&gt;
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;donuts&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fishes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fishes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;donuts&lt;/span&gt;
@@ -96,14 +157,7 @@
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;In that case, the string “yellow” would be concatenated with the string “Monday” first, and then the whole thing would be multiplied by three. So instead of yellowMondayMondayMonday, you’d end up with yellowMondayyellowMondayyellowMonday.&lt;/p&gt;</content><author><name></name></author><summary type="html">Math operations &amp;gt;&amp;gt;&amp;gt; donuts = 12 * 12 &amp;gt;&amp;gt;&amp;gt; fishes = 3 &amp;gt;&amp;gt;&amp;gt; fishes + donuts String operations &amp;gt;&amp;gt;&amp;gt; color = &quot;yellow&quot; &amp;gt;&amp;gt;&amp;gt; day = “Monday” &amp;gt;&amp;gt;&amp;gt; color + day &amp;gt;&amp;gt;&amp;gt; color * fishes &amp;gt;&amp;gt;&amp;gt; color + day * fishes</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 정리해봅시다</title><link href="http://localhost:4000/PYCONKR-YoungCoder/16/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 정리해봅시다" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/16</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/16/">&lt;p class=&quot;summary&quot;&gt;한 번 계산하고 나중에 사용하도록 결과를 보관하십시오.
-같은 이름을 유지하고 값을 변경하십시오.&lt;/p&gt;
-
-&lt;p&gt;다음은 변수에 대해 기억해야 할 규칙 중 일부입니다.&lt;/p&gt;
-
-&lt;p&gt;첫 번째로 값을 저장하는 데 사용할 수 있습니다. 계산은 한 번만 수행하면되지만 나중에 결과를 사용하여 계속 사용할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;두 번째로 변수에 대해 동일한 이름을 유지하면서 다른 값을 지정할 수 있습니다.&lt;/p&gt;</content><author><name></name></author><summary type="html">한 번 계산하고 나중에 사용하도록 결과를 보관하십시오. 같은 이름을 유지하고 값을 변경하십시오.</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 이름을 바꿔주세요</title><link href="http://localhost:4000/PYCONKR-YoungCoder/15/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 이름을 바꿔주세요" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/15</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/15/">&lt;p class=&quot;summary&quot;&gt;Create a variable and give it a value:&lt;/p&gt;
+&lt;p&gt;In that case, the string “yellow” would be concatenated with the string “Monday” first, and then the whole thing would be multiplied by three. So instead of yellowMondayMondayMonday, you’d end up with yellowMondayyellowMondayyellowMonday.&lt;/p&gt;</content><author><name></name></author><summary type="html">Math operations &amp;gt;&amp;gt;&amp;gt; donuts = 12 * 12 &amp;gt;&amp;gt;&amp;gt; fishes = 3 &amp;gt;&amp;gt;&amp;gt; fishes + donuts String operations &amp;gt;&amp;gt;&amp;gt; color = &quot;yellow&quot; &amp;gt;&amp;gt;&amp;gt; day = “Monday” &amp;gt;&amp;gt;&amp;gt; color + day &amp;gt;&amp;gt;&amp;gt; color * fishes &amp;gt;&amp;gt;&amp;gt; color + day * fishes</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 이름을 바꿔주세요</title><link href="http://localhost:4000/PYCONKR-YoungCoder/15/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 이름을 바꿔주세요" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/15</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/15/">&lt;p class=&quot;summary&quot;&gt;Create a variable and give it a value:&lt;/p&gt;
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;yellow&quot;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;
  &lt;span class=&quot;s&quot;&gt;'yellow'&lt;/span&gt;
@@ -199,39 +253,4 @@ Spaces inside the string are counted.&lt;/p&gt;
 
 &lt;p&gt;But we can also do math inside the square brackets. Here we’re subtracting one from six, which is … five. So what is the character at the fifth index in this string?&lt;/p&gt;
 
-&lt;p&gt;Go ahead and type this expression to find out.&lt;/p&gt;</content><author><name></name></author><summary type="html">&amp;gt;&amp;gt;&amp;gt; print(&quot;Hello&quot;[0]) &amp;gt;&amp;gt;&amp;gt; print(&quot;Hello&quot;[4]) &amp;gt;&amp;gt;&amp;gt; print(&quot;Hey, Bob!&quot;[4]) &amp;gt;&amp;gt;&amp;gt; print(&quot;Hey, Bob!&quot;[6-1])</summary></entry><entry><title type="html">파이썬과 말해봐요 - (문자열) 단어와 단어를 연결하기</title><link href="http://localhost:4000/PYCONKR-YoungCoder/11/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (문자열) 단어와 단어를 연결하기" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/11</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/11/">&lt;p class=&quot;summary&quot;&gt;문자열을 연결 할 때: &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt;
-여러번 문자열을 할 때: &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hi&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;there!&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;HAHA&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;250&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Remember those operators we used for doing math? Well, we can also use some of them to do things with strings.&lt;/p&gt;
-
-&lt;p&gt;And here’s a new word: concatenate. Concatenation is a little bit like adding - we use it to put words together, but side to side.&lt;/p&gt;
-
-&lt;p&gt;And multiplying controls how many times we show a string.&lt;/p&gt;
-
-&lt;p&gt;So try these examples and see what Python gives you.&lt;/p&gt;</content><author><name></name></author><summary type="html">문자열을 연결 할 때: + 여러번 문자열을 할 때: * &amp;gt;&amp;gt;&amp;gt; &quot;Hi&quot; + &quot;there!&quot; &amp;gt;&amp;gt;&amp;gt; &quot;HAHA&quot; * 250</summary></entry><entry><title type="html">파이썬과 말해봐요 - (문자열) 입력하기</title><link href="http://localhost:4000/PYCONKR-YoungCoder/10/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (문자열) 입력하기" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/10</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/10/">&lt;div class=&quot;language-python summary highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;garlic breath&quot;&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello!&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&quot;&lt;/code&gt; 없이 입력하면 어떻게 될까요?&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; apple
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&quot;&lt;/code&gt; 또는  &lt;code class=&quot;highlighter-rouge&quot;&gt;''&lt;/code&gt; 따옴표를 양쪽에 감싸서 꼭 입력해줘야 합니다.&lt;/p&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;apple&quot;&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;What's for lunch?&quot;&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;3 + 5&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;우리는 방금 Python에서 수학을 사용하는 기초를 다뤘습니다. 이제는 STRINGS 라고 하는 새로운 종류의 데이터에 대해 이야기 할 시간입니다.&lt;/p&gt;
-
-&lt;p&gt;우리가 프로그래밍에서 ‘string’이라는 단어를 사용할 때, 우리는 글자나 기호와 같은 글자, 또는 글자들이 단어처럼 함께 쓰이는 것을 말합니다.&lt;/p&gt;
-
-&lt;p&gt;그러나 문자열이 무엇인지 설명하는 가장 좋은 방법은 몇 가지 예를 보여주는 것입니다.&lt;/p&gt;</content><author><name></name></author><summary type="html">&amp;gt;&amp;gt;&amp;gt; &quot;garlic breath&quot; &amp;gt;&amp;gt;&amp;gt; &quot;Hello!&quot; &quot;&quot; 없이 입력하면 어떻게 될까요? &amp;gt;&amp;gt;&amp;gt; apple &quot;&quot; 또는 '' 따옴표를 양쪽에 감싸서 꼭 입력해줘야 합니다. &amp;gt;&amp;gt;&amp;gt; &quot;apple&quot; &amp;gt;&amp;gt;&amp;gt; &quot;What's for lunch?&quot; &amp;gt;&amp;gt;&amp;gt; &quot;3 + 5&quot;</summary></entry></feed>
+&lt;p&gt;Go ahead and type this expression to find out.&lt;/p&gt;</content><author><name></name></author><summary type="html">&amp;gt;&amp;gt;&amp;gt; print(&quot;Hello&quot;[0]) &amp;gt;&amp;gt;&amp;gt; print(&quot;Hello&quot;[4]) &amp;gt;&amp;gt;&amp;gt; print(&quot;Hey, Bob!&quot;[4]) &amp;gt;&amp;gt;&amp;gt; print(&quot;Hey, Bob!&quot;[6-1])</summary></entry></feed>
