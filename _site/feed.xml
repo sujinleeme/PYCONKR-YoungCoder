@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/PYCONKR-YoungCoder/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/PYCONKR-YoungCoder/" rel="alternate" type="text/html" /><updated>2017-08-04T23:51:59+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/</id><title type="html">파이콘코리아 영코더 튜토리얼 - PYCONKR Young Coder Tutorial</title><subtitle>파이콘코리아 2017</subtitle><entry><title type="html">파이썬과 말해봐요 - (변수) 서로 비교해보세요</title><link href="http://localhost:4000/PYCONKR-YoungCoder/19/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 서로 비교해보세요" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/19</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/19/">&lt;p class=&quot;summary&quot;&gt;Assigning values or making comparisons?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/PYCONKR-YoungCoder/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/PYCONKR-YoungCoder/" rel="alternate" type="text/html" /><updated>2017-08-05T14:18:19+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/</id><title type="html">파이콘코리아 영코더 튜토리얼 - PYCONKR Young Coder Tutorial</title><subtitle>파이콘코리아 2017</subtitle><entry><title type="html">파이썬과 말해봐요 - (변수) 서로 비교해보세요</title><link href="http://localhost:4000/PYCONKR-YoungCoder/19/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 서로 비교해보세요" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/19</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/19/">&lt;p class=&quot;summary&quot;&gt;값을 할당하거나 서로 값을 비교해보세요&lt;/p&gt;
+
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fruit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;watermelon&quot;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -8,41 +9,41 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Here’s one last thing I want to add before we move on - and this doesn’t just apply to variables, but to strings and numbers as well.&lt;/p&gt;
+&lt;p&gt;다음 장으로 넘어가기 전에 한 번 더 해볼 것 이 있어요. 변수 뿐만 아니라 문자열과 숫자에도 사용할 수 있어요.&lt;/p&gt;
 
-&lt;p&gt;When we create a variable and give it a value, we use a single equals sign to assign that value.&lt;/p&gt;
+&lt;p&gt;변수를 생성하고 값을 주면 그 값을 할당하기 위해 &lt;code class=&quot;highlighter-rouge&quot;&gt;=&lt;/code&gt; 등호를 사용합니다.&lt;/p&gt;
 
-&lt;p&gt;But remember earlier when we were working with numbers and we used the double equals sign to do comparisons?&lt;/p&gt;
+&lt;p&gt;지난 장에서 서로 다른 두 숫자 비교를 할 때 이중 등호(&lt;code class=&quot;highlighter-rouge&quot;&gt;==&lt;/code&gt;)를 사용했었죠?&lt;/p&gt;
 
-&lt;p&gt;One equal sign or two? How can you remember which one to use?&lt;/p&gt;
+&lt;p&gt;그럼 언제 등호 하나를, 등호 두개를 언제 사용하는지 보다 쉽게 기억할 수 있는 방법이 있을까요?&lt;/p&gt;
 
-&lt;p&gt;Well here’s how I remember.&lt;/p&gt;
+&lt;p&gt;제가 사용하는 방법을 알려드릴게요.&lt;/p&gt;
 
-&lt;p&gt;When we’re assigning a value, we’re just saying “this equals that”. That’s a short sentence, so it only gets one equal sign.&lt;/p&gt;
+&lt;p&gt;우리가 새로운 변수, 즉 값을 만들 때는, “이건 저거야” 라고 말하는 것과 같아요. 짧은 문장이니 등호 하나만 사용하는 거에요.&lt;/p&gt;
 
-&lt;p&gt;But when we’re comparing values, we’re asking “is this thing equal to that thing?”. And that’s a longer sentence, so it gets two equal signs.&lt;/p&gt;</content><author><name></name></author><summary type="html">Assigning values or making comparisons? &amp;gt;&amp;gt;&amp;gt; fruit = &quot;watermelon&quot; &amp;gt;&amp;gt;&amp;gt; 5 = 6 &amp;gt;&amp;gt;&amp;gt; fruit == &quot;watermelon&quot; &amp;gt;&amp;gt;&amp;gt; 5 == 6</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 위치를 찾아보세요</title><link href="http://localhost:4000/PYCONKR-YoungCoder/18/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 위치를 찾아보세요" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/18</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/18/">&lt;p class=&quot;summary&quot;&gt;More things we can do with variables:
-Get an index from a string:&lt;/p&gt;
+&lt;p&gt;그러나 두 값을 서로 비교할 때, “이 값과 다른 값이 똑같을까?” 라고 묻는 거에요. 그럼 더 문장이 길어지겠죠? 이 경우에는 등호 두개 (&lt;code class=&quot;highlighter-rouge&quot;&gt;==&lt;/code&gt;)를 사용합니다.&lt;/p&gt;</content><author><name></name></author><summary type="html">값을 할당하거나 서로 값을 비교해보세요</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 위치를 찾아보세요</title><link href="http://localhost:4000/PYCONKR-YoungCoder/18/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 위치를 찾아보세요" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/18</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/18/">&lt;p class=&quot;summary&quot;&gt;변수로 할 수 있는 일 :
+문자열에서 색인 가져 오기 :&lt;/p&gt;
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fruit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;watermelon&quot;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fruit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;p&gt;Do some math to get the index:&lt;/p&gt;
+
+&lt;p&gt;변수로 가지고 더 많은 것들을 해볼 수 있어요.&lt;/p&gt;
+
+&lt;p&gt;문자열에서 색인에 대해 이야기 했었죠? INDEX는 문자열에 있는 문자의 위치를 말해요. 글쎄, 변수가 문자열인 값을 가지고 있다면, 이를 통해 인덱스, 위치를 얻을 수 있어요.&lt;/p&gt;
+
+&lt;p&gt;첫 번째 예제를 해볼까요. 이 단원의 앞부분에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;fruit&lt;/code&gt;라는 변수를 이미 만들었을 거에요. 이제 해당 변수의 문자열 값에서 두번째에 있는 알파벳 문자를 찾아보세요.&lt;/p&gt;
+
+&lt;p&gt;대괄호 &lt;code class=&quot;highlighter-rouge&quot;&gt;[]&lt;/code&gt;안에 명령, 변수 및 숫자를 입력합니다. 엔터키를 누르니 예상했던 알파벳 문자가 나왔나요?&lt;/p&gt;
+
+&lt;p&gt;그리고 마지막으로 쉬운 예가 하나 있습니다. 우리는 변수를 사용하여 수학을 할 수있는 몇 가지 방법을 이미 보았습니다. 여기에 또 다른 방법이 있습니다. 대괄호 안에 변수를 사용하여 숫자를 계산할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이 예제를 입력하고 ‘mynumber’변수를 만든 다음 ‘fruit’변수에서 인덱스를 가져와 보세요.&lt;/p&gt;
+
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mynumber&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fruit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mynumber&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Let’s look at just a couple more things you can do with variables.&lt;/p&gt;
-
-&lt;p&gt;Remember when we were looking at strings, and we talked about indexes? An INDEX is the position of a character in a string. Well, if a variable has a value that’s a string, we can get an index from it as well.&lt;/p&gt;
-
-&lt;p&gt;Let’s go ahead and try this first example. You might already have created a variable named fruit from earlier in this lesson. Now let’s find the character that’s at the index of two in that variable’s string value.&lt;/p&gt;
-
-&lt;p&gt;Type the print command, the variable, and then a number inside the square brackets. When you hit Enter, did you get the character you were expecting?&lt;/p&gt;
-
-&lt;p&gt;And here’s one last easy example. We’ve already seen a few ways we can use variables to do math. Well here’s one more way - we can use a variable inside those square brackets to calculate a number.&lt;/p&gt;
-
-&lt;p&gt;Go ahead and type this example - create the variable ‘mynumber’, then use it to get an index from the ‘fruit’ variable.&lt;/p&gt;</content><author><name></name></author><summary type="html">More things we can do with variables: Get an index from a string: &amp;gt;&amp;gt;&amp;gt; fruit = &quot;watermelon&quot; &amp;gt;&amp;gt;&amp;gt; print (fruit[2]) Do some math to get the index: &amp;gt;&amp;gt;&amp;gt; mynumber = 3 &amp;gt;&amp;gt;&amp;gt; print (fruit[mynumber-2])</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?</title><link href="http://localhost:4000/PYCONKR-YoungCoder/17/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/17</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/17/">&lt;p class=&quot;summary&quot;&gt;Math operations&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">변수로 할 수 있는 일 : 문자열에서 색인 가져 오기 : &amp;gt;&amp;gt;&amp;gt; fruit = &quot;watermelon&quot; &amp;gt;&amp;gt;&amp;gt; print (fruit[2])</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?</title><link href="http://localhost:4000/PYCONKR-YoungCoder/17/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/17</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/17/">&lt;p class=&quot;summary&quot;&gt;Math operations&lt;/p&gt;
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;donuts&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fishes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fishes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;donuts&lt;/span&gt;
@@ -95,14 +96,14 @@ Get an index from a string:&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;In that case, the string “yellow” would be concatenated with the string “Monday” first, and then the whole thing would be multiplied by three. So instead of yellowMondayMondayMonday, you’d end up with yellowMondayyellowMondayyellowMonday.&lt;/p&gt;</content><author><name></name></author><summary type="html">Math operations &amp;gt;&amp;gt;&amp;gt; donuts = 12 * 12 &amp;gt;&amp;gt;&amp;gt; fishes = 3 &amp;gt;&amp;gt;&amp;gt; fishes + donuts String operations &amp;gt;&amp;gt;&amp;gt; color = &quot;yellow&quot; &amp;gt;&amp;gt;&amp;gt; day = “Monday” &amp;gt;&amp;gt;&amp;gt; color + day &amp;gt;&amp;gt;&amp;gt; color * fishes &amp;gt;&amp;gt;&amp;gt; color + day * fishes</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 정리해봅시다</title><link href="http://localhost:4000/PYCONKR-YoungCoder/16/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 정리해봅시다" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/16</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/16/">&lt;p class=&quot;summary&quot;&gt;Calculate once, keep the result to use later
-Keep the same name, change the value&lt;/p&gt;
+&lt;p&gt;In that case, the string “yellow” would be concatenated with the string “Monday” first, and then the whole thing would be multiplied by three. So instead of yellowMondayMondayMonday, you’d end up with yellowMondayyellowMondayyellowMonday.&lt;/p&gt;</content><author><name></name></author><summary type="html">Math operations &amp;gt;&amp;gt;&amp;gt; donuts = 12 * 12 &amp;gt;&amp;gt;&amp;gt; fishes = 3 &amp;gt;&amp;gt;&amp;gt; fishes + donuts String operations &amp;gt;&amp;gt;&amp;gt; color = &quot;yellow&quot; &amp;gt;&amp;gt;&amp;gt; day = “Monday” &amp;gt;&amp;gt;&amp;gt; color + day &amp;gt;&amp;gt;&amp;gt; color * fishes &amp;gt;&amp;gt;&amp;gt; color + day * fishes</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 정리해봅시다</title><link href="http://localhost:4000/PYCONKR-YoungCoder/16/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 정리해봅시다" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/16</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/16/">&lt;p class=&quot;summary&quot;&gt;한 번 계산하고 나중에 사용하도록 결과를 보관하십시오.
+같은 이름을 유지하고 값을 변경하십시오.&lt;/p&gt;
 
-&lt;p&gt;Here are some of the rules to remember about variables.&lt;/p&gt;
+&lt;p&gt;다음은 변수에 대해 기억해야 할 규칙 중 일부입니다.&lt;/p&gt;
 
-&lt;p&gt;The first thing is that you can use them to store values. You only have to do the calculation once, but you can keep the result around to use later.&lt;/p&gt;
+&lt;p&gt;첫 번째로 값을 저장하는 데 사용할 수 있습니다. 계산은 한 번만 수행하면되지만 나중에 결과를 사용하여 계속 사용할 수 있습니다.&lt;/p&gt;
 
-&lt;p&gt;The second thing is that you can keep the same name for your variable, but give it different values.&lt;/p&gt;</content><author><name></name></author><summary type="html">Calculate once, keep the result to use later Keep the same name, change the value</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 이름을 바꿔주세요</title><link href="http://localhost:4000/PYCONKR-YoungCoder/15/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 이름을 바꿔주세요" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/15</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/15/">&lt;p class=&quot;summary&quot;&gt;Create a variable and give it a value:&lt;/p&gt;
+&lt;p&gt;두 번째로 변수에 대해 동일한 이름을 유지하면서 다른 값을 지정할 수 있습니다.&lt;/p&gt;</content><author><name></name></author><summary type="html">한 번 계산하고 나중에 사용하도록 결과를 보관하십시오. 같은 이름을 유지하고 값을 변경하십시오.</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 이름을 바꿔주세요</title><link href="http://localhost:4000/PYCONKR-YoungCoder/15/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 이름을 바꿔주세요" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/15</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/15/">&lt;p class=&quot;summary&quot;&gt;Create a variable and give it a value:&lt;/p&gt;
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;yellow&quot;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;
  &lt;span class=&quot;s&quot;&gt;'yellow'&lt;/span&gt;
@@ -117,17 +118,17 @@ Keep the same name, change the value&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;And once you make a variable, you can give it a new value.&lt;/p&gt;
+&lt;p&gt;일단 변수를 만들면 새로운 값으로 다시 바꿀 수 있습니다.&lt;/p&gt;
 
-&lt;p&gt;Try typing the example at the top. You’re making a variable with the name ‘color’, then giving it the string ‘yellow’ as a value.&lt;/p&gt;
+&lt;p&gt;위 예제를 입력해보세요. ‘color’라는 이름의 변수를 만든 다음 ‘yellow’라는 문자열 값을 부여합니다.&lt;/p&gt;
 
-&lt;p&gt;Next, when you type the word ‘color’ and press Enter, Python should return the value of your variable, ‘yellow’.&lt;/p&gt;
+&lt;p&gt;그런 다음 ‘color’라는 단어를 입력하고 Enter 키를 누르면 Python은 변수 ‘노란색’의 값을 반환합니다.&lt;/p&gt;
 
-&lt;p&gt;Now let’s give ‘color’ a new value. Go ahead and type the second example as it’s written - remember that the variable doesn’t have quotes around it, but the new value, ‘red’, does have quotes because it’s a string.&lt;/p&gt;
+&lt;p&gt;이제 ‘color’에 새로운 값을 넣어보세요. 계속해서 두 번째 예제를 작성하면서 입력하세요. 변수에 따옴표가 없지만 새 값인 ‘red’는 문자열이므로 따옴표가 붙습니다.&lt;/p&gt;
 
-&lt;p&gt;When you enter the variable name again, you should see the new value.&lt;/p&gt;
+&lt;p&gt;변수 이름을 다시 입력하면 새 값이 표시됩니다.&lt;/p&gt;
 
-&lt;p&gt;Go ahead and try giving your variable some other new values, like different strings or even some numbers.&lt;/p&gt;</content><author><name></name></author><summary type="html">Create a variable and give it a value: &amp;gt;&amp;gt;&amp;gt; color = &quot;yellow&quot; &amp;gt;&amp;gt;&amp;gt; color 'yellow' Now assign a new value: &amp;gt;&amp;gt;&amp;gt; color = &quot;red&quot; &amp;gt;&amp;gt;&amp;gt; color 'red' &amp;gt;&amp;gt;&amp;gt; color = &quot;fish&quot; &amp;gt;&amp;gt;&amp;gt; color = 12</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 이름을 붙여주세요</title><link href="http://localhost:4000/PYCONKR-YoungCoder/14/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 이름을 붙여주세요" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/14</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/14/">&lt;p&gt;So far we’ve learned a bit about computer basics, and we’ve used Python to work with numbers and strings.&lt;/p&gt;
+&lt;p&gt;다른 문자열이나 숫자와 같은 다른 새로운 값을 변수에 넣어보세요.&lt;/p&gt;</content><author><name></name></author><summary type="html">Create a variable and give it a value: &amp;gt;&amp;gt;&amp;gt; color = &quot;yellow&quot; &amp;gt;&amp;gt;&amp;gt; color 'yellow' Now assign a new value: &amp;gt;&amp;gt;&amp;gt; color = &quot;red&quot; &amp;gt;&amp;gt;&amp;gt; color 'red' &amp;gt;&amp;gt;&amp;gt; color = &quot;fish&quot; &amp;gt;&amp;gt;&amp;gt; color = 12</summary></entry><entry><title type="html">파이썬과 말해봐요 - (변수) 이름을 붙여주세요</title><link href="http://localhost:4000/PYCONKR-YoungCoder/14/" rel="alternate" type="text/html" title="파이썬과 말해봐요 - (변수) 이름을 붙여주세요" /><published>2017-08-04T00:00:00+09:00</published><updated>2017-08-04T00:00:00+09:00</updated><id>http://localhost:4000/PYCONKR-YoungCoder/14</id><content type="html" xml:base="http://localhost:4000/PYCONKR-YoungCoder/14/">&lt;p&gt;So far we’ve learned a bit about computer basics, and we’ve used Python to work with numbers and strings.&lt;/p&gt;
 
 &lt;p&gt;Now let’s look at another way of working with data in Python - something called a variable.&lt;/p&gt;
 
