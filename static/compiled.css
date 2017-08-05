@@ -156,8 +156,8 @@ pre > code {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(740px);
-  max-width: calc(740px);
+  max-width: -webkit-calc(1140px);
+  max-width: calc(1140px);
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
@@ -605,4 +605,40 @@ pre > code {
 }
 .highlight .il {
   color: #099;
+}
+#ppt,
+#desc {
+  width: 50%;
+  padding: 30px;
+}
+article {
+  display: flex;
+}
+ul.posts {
+  display: flex;
+  list-style-type: none;
+  margin: 0 !important;
+}
+ul.posts li {
+  width: 50%;
+  padding: 30px !important;
+}
+ul.posts .prev {
+  text-align: left;
+}
+ul.posts .next {
+  text-align: right;
+}
+ul.posts h4 {
+  margin-bottom: 0;
+}
+ul.posts > li {
+  /* some rules */
+}
+ul.posts > li:hover {
+  background: blue;
+  cursor: pointer;
+}
+ul.posts > li:focus {
+  /* some rules */
 }
