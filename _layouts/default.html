@@ -1,28 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ko">
   {% include head.html %}
-
-  {% include header.html %}
-  {% assign author = site.data.authors[page.author] %}
-  {% if page.date_modified %}
-  {% assign modified = page.date_modified %}
-  {% else %}
-  {% assign modified = page.date %}
-  {% endif %}
-
+  <!-- 
+    {% assign author = site.data.authors[page.author] %}
+    {% if page.date_modified %}
+    {% assign modified = page.date_modified %}
+    {% else %}
+    {% assign modified = page.date %}
+    {% endif %} -->
   <body>
-    <main class="page-content">
-    <div class="wrapper">
-
-    {% for post in site.posts reversed%}
-    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-    {% endfor %}
-  {% include pagination.html %}
+    <main class="intro">
+    <article>
+      <div class="cover" id="cover--left" markdown="1">
+        <div class="book--title">
+          <h1><strong>파이썬</strong>으로 말해요</h1>
+          <p>
+            <i class="python-logo devicon-python-plain"></i>
+            Pycon YoungCoder Tutorial
+          </p>
+        </div>
+        <div class="book--author">
+          <!-- {% if site.author %} -->
+          <p>{{ site.author }}</p>
+          <!-- {% endif %} -->
+          <!-- {% if site.translator %} -->
+          <p>{{ site.translator }}</p>
+          <!-- {% endif %} -->
+        </div>
       </div>
-  {% include footer.html %}
-  
+      <div class="scroll" id="cover--right">
+        <div class="chapter--title">
+          <h1 class="contents">목차</h1>
+          <ul>
+            {% for post in site.posts reversed%}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+    </article>
   </body>
-</div>
-
+  </div>
 </html>

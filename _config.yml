@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 파이콘코리아 영코더 튜토리얼 - PYCONKR Young Coder Tutorial
-email: your-email@example.com
+title: 파이썬으로 말해요 - PYCON Young Coder Tutorial
+email: sujinlee.me@gmail.com
 description:  파이콘코리아 2017
 baseurl: "/PYCONKR-YoungCoder"
 url: "https://sujinleeme.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -22,6 +22,9 @@ twitter_username: sujinleeme
 github_username:  sujinleeme
 permalink: /:categories/:title/
 
+# Authors
+author: Barbara Shaurette, Katie Cunningham
+translator: 이수진, 이은애, 배경은
 # Build settings
 markdown: kramdown
 kramdown: 

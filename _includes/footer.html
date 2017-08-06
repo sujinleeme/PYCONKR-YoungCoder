@@ -1,0 +1,37 @@
+<footer class="site-footer">
+  <div class="pagnation">
+    <ul class="posts posts--previous-next">
+      {% if page.previous %} 
+      <a href="{{ site.baseurl }}{{ page.previous.url }}">
+        <li class="prev">
+          <span class="icon-arrow-left"></span>
+          <h4 class="pagination-title">{{ page.previous.title }}</h4>
+        </li>
+      </a>
+      {% else %}
+      <a href="{{ site.baseurl }}{{ page.previous.url }}">
+        <li class="prev">
+        </li>
+      </a>
+      {% endif %}
+      <a class="site-title" href="{{ site.baseurl }}/">
+        <li class="list">
+          <span class="icon-list"></span> 
+        </li>
+      </a>
+      {% if page.next %} 
+      <a href="{{ site.baseurl }}{{ page.next.url }}">
+        <li class="next">
+          <h4 class="pagination-title">{{ page.next.title }}</h4>
+          <span class="icon-arrow-right"></span>
+        </li>
+      </a>
+      {% else %}
+      <a href="{{ site.baseurl }}{{ page.next.url }}">
+        <li class="next">
+        </li>
+      </a>
+      {% endif %}
+    </ul>
+  </div>
+</footer>

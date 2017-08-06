@@ -19,7 +19,7 @@ guard "rake", :task => "compile_less" do
     watch(%r{^static/less/.+\.less})
 end
 
-guard "jekyll-plus", :extensions => ['md'] do
+guard "jekyll-plus", :extensions => ['md', 'html', 'css'] do
   watch /.*/
 end
 

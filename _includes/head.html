@@ -27,12 +27,15 @@
   {% if author %}
   <meta property="article:author" content="{{ author.name }}" />
   {% endif %}
-  <link rel="stylesheet" href="{{ site.baseurl }}/static/compiled.css">
   <title>
     {% if page.title %} {{ page.title }}
     {% else %} {{ site.title }}
     {% endif %}
   </title>
   <!-- stylesheet -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/static/compiled.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
 </head>
