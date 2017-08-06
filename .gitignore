@@ -1,3 +1,5 @@
 .sass-cache
 .sass-cache/*
-
+.bundle/
+_site/
+.DS_Store
