@@ -4,12 +4,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="프롬프트에 아래 명령어를 입력해보세요.">
+  <meta name="description" content="  &gt;&gt;&gt; 5 &lt; 4 + 3&gt;&gt;&gt; 12 + 1 &gt;= 12&gt;&gt;&gt; 16 * 2 == 32&gt;&gt;&gt; 16 != 16&gt;&gt;&gt; 5 &gt;= 6  ">
   <meta property="og:site_name" content="파이썬으로 말해요 - PYCON Young Coder Tutorial">
   
-  <meta property="og:title" content="파이썬과 말해봐요 - (수학) 소수점을 정수로 만들기">
+  <meta property="og:title" content="(수학) 참과 거짓">
   <meta property="og:type" content="article">
-  <meta property="og:description" content="프롬프트에 아래 명령어를 입력해보세요.
+  <meta property="og:description" content="
+  &gt;&gt;&gt; 5 &lt; 4 + 3
+&gt;&gt;&gt; 12 + 1 &gt;= 12
+&gt;&gt;&gt; 16 * 2 == 32
+&gt;&gt;&gt; 16 != 16
+&gt;&gt;&gt; 5 &gt;= 6
+
+  
+
 
 "/>
   
@@ -24,7 +32,7 @@
   
   
   <title>
-     파이썬과 말해봐요 - (수학) 소수점을 정수로 만들기
+     (수학) 참과 거짓
     
   </title>
   <!-- stylesheet -->
@@ -60,49 +68,41 @@
     <main class="page-content">
       <div class="wrapper">
         <article>
-          <p>프롬프트에 아래 명령어를 입력해보세요.</p>
-
-<p class="summary"><code class="highlighter-rouge">10.0</code>, <code class="highlighter-rouge">17.31</code>과 같이 나오는 것이 10진수 소수점이라고 해요.</p>
-
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">10</span><span class="o">/</span><span class="mi">3</span>
-<span class="mf">3.3333333333333335</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="mi">10</span><span class="o">/</span><span class="mi">2</span>
-<span class="mf">5.0</span>
+          <div id="ppt">
+  <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">5</span> <span class="o">&lt;</span> <span class="mi">4</span> <span class="o">+</span> <span class="mi">3</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="mi">12</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">&gt;=</span> <span class="mi">12</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="mi">16</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">32</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="mi">16</span> <span class="o">!=</span> <span class="mi">16</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="mi">5</span> <span class="o">&gt;=</span> <span class="mi">6</span>
 </code></pre>
+  </div>
+
+  <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">5</span> <span class="o">&lt;</span> <span class="mi">4</span> <span class="o">+</span> <span class="mi">3</span>
+<span class="bp">True</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="mi">12</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">&gt;=</span> <span class="mi">12</span>
+<span class="bp">True</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="mi">16</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">32</span>
+<span class="bp">True</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="mi">16</span> <span class="o">!=</span> <span class="mi">16</span>
+<span class="bp">False</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="mi">5</span> <span class="o">&gt;=</span> <span class="mi">6</span>
+<span class="bp">False</span>
+</code></pre>
+  </div>
 </div>
 
-<p>Integers: 9, -55</p>
+<div id="ppt">
+  <h1 id="section">(수학) 참과 거짓</h1>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="nb">round</span><span class="p">(</span><span class="mi">10</span><span class="o">/</span><span class="mi">3</span><span class="p">)</span>
-<span class="mi">3</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="nb">round</span><span class="p">(</span><span class="mi">10</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span>
-<span class="mi">5</span>
-</code></pre>
+  <p>여기에 답들이 있어요. 아마도 여러분이 처음으로 발견한 것은 바로 돌아오는 답이 숫자가 아니라는 것입니다. 이해가 되시나요? 하나의 숫자가 다른 숫자보다 큰지 묻는다면, 답은 True 또는 False가 될 것입니다. 우리는 단 몇 분 안에 Boolean 에 대해 이야기한 것입니다.</p>
+
+  <p>제가 여기서 이야기 하고자 하는 또 다른 한 가지는 오퍼레이션의 순서 입니다.</p>
+
+  <p>첫 표현식을 살펴보겠습니다. 5는 4+3 보다 적다. 컴퓨터가 이 표현식을 읽을 때 여러분이 보는대로 이와 같이 생각할거에요 5는 4 보다 작을까? 그러면 3을 더해라. 다행스럽게도 아니에요. 왜냐하면 “5가 4보다 적나요?” 거짓이라면 거기에 3을 더할 수도 없겠죠.</p>
+
+  <p>대신 파이썬은 더하기를 먼저 합니다. 4 더하기 3. 그리고 4 더하기 3은 7이어서 표현식은 5는 7보다 작은지를 묻는거지요. 파이썬으로 수학을 하는 것에 있어 또 다른 규칙이 있어요. 간단한 예로, 더하기 또는 나누기는 항상 비교연산을 하기 전에 계산을 한다는 사실이지요.</p>
+
 </div>
-
-<p>파이썬이 숫자로 어떻게 작동하는지 배워봅시다!</p>
-
-<p>파이썬에서 그리고 많은 다양한 프로그래밍 언어에는 <code class="highlighter-rouge">float()</code>라고 하는 소수점 표현하는 함수가 있어요</p>
-
-<p>왼쪽에는 10진수 또는 소수점의 몇 가지 예가 있습니다.</p>
-
-<p>그리고 오른쪽에서 정수 또는 정수의 몇 가지 예를 볼 수 있습니다.</p>
-
-<p>나눗셈을 사용하여 수학 표현식을 타이핑하면 파이썬은 float, 10진수를 돌려 줍니다.</p>
-
-<p>파이썬은 가능한 가장 정확한 것을 돌려주기 위해 기본적으로 소수점을 사용합니다.</p>
-
-<p>대신에 정수를 원하면 파이썬 함수인 <code class="highlighter-rouge">round()</code>를 사용하면 됩니다. ‘round’라는 단어를 입력하고 
-괄호 안쪽에 나누기 표현식 중 하나를 입력한 다음 Enter 키를 누릅니다.</p>
-
-<p>다른 숫자를 사용하여 몇 가지 표현을 시도해보세요! 더 잘 이해가 되실거에요.</p>
-
-<p>파이썬이 돌려주는 값들에 대해 이야기 해보았는데요, 프롬프트에서 무언가를 입력하고 ‘Enter’를 누르면 파이썬에게 질문을 하는 것이고, 답을 돌려 받을 수 있게 됩니다.</p>
-
-<p>저는 이런 식을 ‘표현식’이라고 할건데, 앞으로 계속 배우게 될 것입니다.</p>
-
-<p>우리가 수학 문제들을 표현식으로 사용했지만, 표현식을 훨씬 다양하게 활용되고, 앞으로 다양한 단어들과 기호들로 표현을 보게 될거에요.</p>
-
 
         </article>
     </main>
@@ -113,7 +113,7 @@
       <a href="/PYCONKR-YoungCoder/07/">
         <li class="prev">
           <span class="icon-arrow-left"></span>
-          <h4 class="pagination-title">파이썬과 말해봐요 - (수학) 소수점</h4>
+          <h4 class="pagination-title">파이썬과 말해봐요 - (수학) 소수점을 정수로 만들기</h4>
         </li>
       </a>
       
@@ -125,7 +125,7 @@
        
       <a href="/PYCONKR-YoungCoder/09/">
         <li class="next">
-          <h4 class="pagination-title">파이썬과 말해봐요 - (수학) 참과 거짓</h4>
+          <h4 class="pagination-title">(문자열) 입력하기</h4>
           <span class="icon-arrow-right"></span>
         </li>
       </a>

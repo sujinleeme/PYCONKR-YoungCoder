@@ -601,10 +601,16 @@ pre > code {
 .highlight .il {
   color: #099;
 }
-#ppt,
-#desc {
+#ppt {
   width: 50%;
   padding: 30px;
+}
+#desc {
+  width: 50%;
+  padding: 30px 30px 90px 30px;
+}
+#desc {
+  min-height: 80%;
 }
 article {
   display: flex;
@@ -616,6 +622,7 @@ ul.posts {
   width: 100%;
   height: 90px;
   justify-content: space-between;
+  z-index: 9;
 }
 ul.posts a {
   color: #263542;
@@ -668,6 +675,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  background: #fff;
 }
 #wrapper--cover {
   padding: 50px;

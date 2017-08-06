@@ -4,17 +4,26 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="&gt;&gt;&gt; 5 &lt; 4 + 3&gt;&gt;&gt; 12 + 1 &gt;= 12&gt;&gt;&gt; 16 * 2 == 32&gt;&gt;&gt; 16 != 16&gt;&gt;&gt; 5 &gt;= 6">
+  <meta name="description" content="  &gt;&gt;&gt; "garlic breath"&gt;&gt;&gt; "Hello!"    "" 없이 입력하면 어떻게 될까요?  &gt;&gt;&gt; apple    "" 또는  '' 따옴표를 양쪽에 감싸서 꼭 입력해줘야 합니다.  &gt;&gt;&gt; "apple"&g...">
   <meta property="og:site_name" content="파이썬으로 말해요 - PYCON Young Coder Tutorial">
   
-  <meta property="og:title" content="파이썬과 말해봐요 - (수학) 참과 거짓">
+  <meta property="og:title" content="(문자열) 입력하기">
   <meta property="og:type" content="article">
-  <meta property="og:description" content="&gt;&gt;&gt; 5 &lt; 4 + 3
-&gt;&gt;&gt; 12 + 1 &gt;= 12
-&gt;&gt;&gt; 16 * 2 == 32
-&gt;&gt;&gt; 16 != 16
-&gt;&gt;&gt; 5 &gt;= 6
+  <meta property="og:description" content="
+  &gt;&gt;&gt; "garlic breath"
+&gt;&gt;&gt; "Hello!"
 
+  
+  "" 없이 입력하면 어떻게 될까요?
+  &gt;&gt;&gt; apple
+
+  
+  "" 또는  '' 따옴표를 양쪽에 감싸서 꼭 입력해줘야 합니다.
+  &gt;&gt;&gt; "apple"
+&gt;&gt;&gt; "What's for lunch?"
+&gt;&gt;&gt; "3 + 5"
+
+  
 
 
 "/>
@@ -30,7 +39,7 @@
   
   
   <title>
-     파이썬과 말해봐요 - (수학) 참과 거짓
+     (문자열) 입력하기
     
   </title>
   <!-- stylesheet -->
@@ -66,45 +75,52 @@
     <main class="page-content">
       <div class="wrapper">
         <article>
-          <div class="language-python summary highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">5</span> <span class="o">&lt;</span> <span class="mi">4</span> <span class="o">+</span> <span class="mi">3</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="mi">12</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">&gt;=</span> <span class="mi">12</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="mi">16</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">32</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="mi">16</span> <span class="o">!=</span> <span class="mi">16</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="mi">5</span> <span class="o">&gt;=</span> <span class="mi">6</span>
+          <div id="ppt">
+  <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="s">"garlic breath"</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="s">"Hello!"</span>
 </code></pre>
+  </div>
+  <p><code class="highlighter-rouge">""</code> 없이 입력하면 어떻게 될까요?</p>
+  <div class="highlighter-rouge"><pre class="highlight"><code>&gt;&gt;&gt; apple
+</code></pre>
+  </div>
+  <p><code class="highlighter-rouge">""</code> 또는  <code class="highlighter-rouge">''</code> 따옴표를 양쪽에 감싸서 꼭 입력해줘야 합니다.</p>
+  <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="s">"apple"</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="s">"What's for lunch?"</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="s">"3 + 5"</span>
+</code></pre>
+  </div>
 </div>
 
-<p>예로 연습을 해봅시다. 당신은 다양한 답을 얻게 될 수 있어요.</p>
+<div id="desc">
+  <h1 id="section">(문자열) 입력하기</h1>
 
-<p>이 표현식들을 프롬프트에 각각 입력해보고, 엔터 키를 눌러 결과를 하나씩 보세요.</p>
+  <p>우리는 방금 Python에서 수학을 사용하는 기초를 다뤘습니다. 이제는 STRINGS 라고 하는 새로운 종류의 데이터에 대해 이야기 할 시간입니다.</p>
 
-<p>화면의 우측에 비교 연산자 각각의 의미가 무엇인지 기억할 수 있게 도움말로 가이드를 해두었어요.</p>
+  <p>우리가 프로그래밍에서 ‘string’이라는 단어를 사용할 때, 우리는 글자나 기호와 같은 글자, 또는 글자들이 단어처럼 함께 쓰이는 것을 말합니다.</p>
 
-<p>시간을 가지고, 하나씩 해보세요.</p>
+  <p>그러나 문자열이 무엇인지 설명하는 가장 좋은 방법은 몇 가지 예를 보여주는 것입니다.</p>
 
-<p>float 를 사용하니 어떤가요? 차이가 느껴지나요?</p>
+  <p>처음 두 예제를 작성했을 때와 정확히 일치하는 부분을 따옴표로 묶어서 입력해보세요.</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">5</span> <span class="o">&lt;</span> <span class="mi">4</span> <span class="o">+</span> <span class="mi">3</span>
-<span class="bp">True</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="mi">12</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">&gt;=</span> <span class="mi">12</span>
-<span class="bp">True</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="mi">16</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">32</span>
-<span class="bp">True</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="mi">16</span> <span class="o">!=</span> <span class="mi">16</span>
-<span class="bp">False</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="mi">5</span> <span class="o">&gt;=</span> <span class="mi">6</span>
-<span class="bp">False</span>
-</code></pre>
+  <p>그리고 세 번째 예제도 입력하고 Enter키를 눌러보세요.</p>
+
+  <p>에러 메시지가 보이나요?</p>
+
+  <p>우리는 잠시 후에 에러 메시지에 대해 이야기 나눠보겠지만, 지금은 파이썬에서의 새로운 규칙을 배우게 됩니다.</p>
+
+  <p>만약 여러분이 파이썬에서 문자열을 읽게 하려면 따옴표 안에 넣어야 합니다.</p>
+
+  <p>여기 아래 쪽에 있는 예시들을 살펴봅시다.</p>
+
+  <p>숫자나 수식처럼 보이는 것도 문자열일 수 있어요! 따옴표 안에 있는 한!</p>
+
+  <p>또 이미 아셨을 듯도 한데 마지막 두 번째 예를 봅시다. “점심은 무엇입니까?”?</p>
+
+  <p>이 문자열에는 작은 따옴표가 들어 있는데요, 외부에 있는 따옴표가 큰 따옴표이기 때문에 괜찮습니다.</p>
+
+  <p>그러나 내부에 작은 따옴표가 없는 한 작은 따옴표를 문자열에 넣을 수도 있어요.</p>
 </div>
-
-<p>여기에 답들이 있어요. 아마도 여러분이 처음으로 발견한 것은 바로 돌아오는 답이 숫자가 아니라는 것입니다. 이해가 되시나요? 하나의 숫자가 다른 숫자보다 큰지 묻는다면, 답은 True 또는 False가 될 것입니다. 우리는 단 몇 분 안에 Boolean 에 대해 이야기한 것입니다.</p>
-
-<p>제가 여기서 이야기 하고자 하는 또 다른 한 가지는 오퍼레이션의 순서 입니다.</p>
-
-<p>첫 표현식을 살펴보겠습니다. 5는 4+3 보다 적다. 컴퓨터가 이 표현식을 읽을 때 여러분이 보는대로 이와 같이 생각할거에요 5는 4 보다 작을까? 그러면 3을 더해라. 다행스럽게도 아니에요. 왜냐하면 “5가 4보다 적나요?” 거짓이라면 거기에 3을 더할 수도 없겠죠.</p>
-
-<p>대신 파이썬은 더하기를 먼저 합니다. 4 더하기 3. 그리고 4 더하기 3은 7이어서 표현식은 5는 7보다 작은지를 묻는거지요. 파이썬으로 수학을 하는 것에 있어 또 다른 규칙이 있어요. 간단한 예로, 더하기 또는 나누기는 항상 비교연산을 하기 전에 계산을 한다는 사실이지요.</p>
-
 
         </article>
     </main>
@@ -115,7 +131,7 @@
       <a href="/PYCONKR-YoungCoder/08/">
         <li class="prev">
           <span class="icon-arrow-left"></span>
-          <h4 class="pagination-title">파이썬과 말해봐요 - (수학) 소수점을 정수로 만들기</h4>
+          <h4 class="pagination-title">(수학) 참과 거짓</h4>
         </li>
       </a>
       
@@ -127,7 +143,7 @@
        
       <a href="/PYCONKR-YoungCoder/10/">
         <li class="next">
-          <h4 class="pagination-title">파이썬과 말해봐요 - (문자열) 입력하기</h4>
+          <h4 class="pagination-title">(문자열) 단어와 단어를 연결하기</h4>
           <span class="icon-arrow-right"></span>
         </li>
       </a>

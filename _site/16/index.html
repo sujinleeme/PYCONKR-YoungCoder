@@ -4,24 +4,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="Math operations&gt;&gt;&gt; donuts = 12 * 12&gt;&gt;&gt; fishes = 3&gt;&gt;&gt; fishes + donutsString operations&gt;&gt;&gt; color = "yellow"&gt;&gt;&gt; day...">
+  <meta name="description" content="  변수로 할 수 있는 일 :문자열에서 색인 가져 오기 :">
   <meta property="og:site_name" content="파이썬으로 말해요 - PYCON Young Coder Tutorial">
   
-  <meta property="og:title" content="파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?">
+  <meta property="og:title" content="(변수) 위치를 찾아보세요">
   <meta property="og:type" content="article">
-  <meta property="og:description" content="Math operations
-&gt;&gt;&gt; donuts = 12 * 12
-&gt;&gt;&gt; fishes = 3
-&gt;&gt;&gt; fishes + donuts
-
-
-String operations
-&gt;&gt;&gt; color = "yellow"
-&gt;&gt;&gt; day = “Monday”
-&gt;&gt;&gt; color + day
-&gt;&gt;&gt; color * fishes
-&gt;&gt;&gt; color + day * fishes
-
+  <meta property="og:description" content="
+  변수로 할 수 있는 일 :
+문자열에서 색인 가져 오기 :
 
 
 "/>
@@ -37,7 +27,7 @@ String operations
   
   
   <title>
-     파이썬과 말해봐요 - (변수) 연산자를 가지고 좀더 놀아볼까요?
+     (변수) 위치를 찾아보세요
     
   </title>
   <!-- stylesheet -->
@@ -73,63 +63,36 @@ String operations
     <main class="page-content">
       <div class="wrapper">
         <article>
-          <p class="summary">Math operations</p>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">donuts</span> <span class="o">=</span> <span class="mi">12</span> <span class="o">*</span> <span class="mi">12</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">fishes</span> <span class="o">=</span> <span class="mi">3</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">fishes</span> <span class="o">+</span> <span class="n">donuts</span>
+          <div id="ppt">
+  <p>변수로 할 수 있는 일 :
+문자열에서 색인 가져 오기 :</p>
+
+  <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">fruit</span> <span class="o">=</span> <span class="s">"watermelon"</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span> <span class="p">(</span><span class="n">fruit</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
 </code></pre>
-</div>
-<p>String operations</p>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">color</span> <span class="o">=</span> <span class="s">"yellow"</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">day</span> <span class="o">=</span> <span class="err">“</span><span class="n">Monday</span><span class="err">”</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">color</span> <span class="o">+</span> <span class="n">day</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">color</span> <span class="o">*</span> <span class="n">fishes</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">color</span> <span class="o">+</span> <span class="n">day</span> <span class="o">*</span> <span class="n">fishes</span>
-</code></pre>
+  </div>
 </div>
 
-<p>변수를 사용하여 숫자와 문자열로 수행하는 것과 동일한 작업을 수행 할 수도 있습니다.</p>
+<div id="desc">
+  <h1 id="section">(변수) 위치를 찾아보세요</h1>
+  <p>변수로 가지고 더 많은 것들을 해볼 수 있어요.</p>
 
-<p>두 개의 변수를 만들고 숫자 값을 지정해 보겠습니다. 이전의 도너츠 예제를 사용할 수 있으며 새 변수 하나를 만들 수 있습니다. 그 새로운 변수에 3의 값을 주려고 합니다.</p>
+  <p>문자열에서 색인에 대해 이야기 했었죠? INDEX는 문자열에 있는 문자의 위치를 말해요. 글쎄, 변수가 문자열인 값을 가지고 있다면, 이를 통해 인덱스, 위치를 얻을 수 있어요.</p>
 
-<p>이제 두 변수를 더해봅시다! 결과는 여러분이 기대한 것입니까?</p>
+  <p>첫 번째 예제를 해볼까요. 이 단원의 앞부분에서 <code class="highlighter-rouge">fruit</code>라는 변수를 이미 만들었을 거에요. 이제 해당 변수의 문자열 값에서 두번째에 있는 알파벳 문자를 찾아보세요.</p>
 
-<p>이 두 변수로 다른 수학 연산을 시도해 보십시오. 빼기, 나누기, 곱하기, 비교도 할 수 있습니다.</p>
+  <p>대괄호 <code class="highlighter-rouge">[]</code>안에 명령, 변수 및 숫자를 입력합니다. 엔터키를 누르니 예상했던 알파벳 문자가 나왔나요?</p>
 
-<p>문자열 값을 가진 변수를 사용하여 동일한 작업을 수행 할 수 있습니다.</p>
+  <p>그리고 마지막으로 쉬운 예가 하나 있습니다. 우리는 변수를 사용하여 수학을 할 수있는 몇 가지 방법을 이미 보았습니다. 여기에 또 다른 방법이 있습니다. 대괄호 안에 변수를 사용하여 숫자를 계산할 수 있습니다.</p>
 
-<p>두 가지 변수를 추가로 만듭니다. 즉, color는 노란색이고 day는 월요일과 같습니다.</p>
+  <p>이 예제를 입력하고 ‘mynumber’변수를 만든 다음 ‘fruit’변수에서 인덱스를 가져와 보세요.</p>
 
-<p>우리가 할 첫 번째 일은 더하기 기호와 함께 놓는 것입니다. 문자열에 대해 더하기 기호가 무엇인지 기억하나요? 연결하는거죠!</p>
+  <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">mynumber</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span> <span class="p">(</span><span class="n">fruit</span><span class="p">[</span><span class="n">mynumber</span><span class="o">-</span><span class="mi">2</span><span class="p">])</span>
+</code></pre>
+  </div>
 
-<p>문자열을 가진 변수와 숫자 값을 가진 변수를 곱하면 어떻게 될까요?</p>
-
-<p>이제 우리는 더하기와 곱하기 표현을 살펴 보겠습니다. 파이썬이 여기서 무슨 값을 돌려줄거라 생각되나요? 프롬프트에 이것을 입력하고 알아보겠습니다.</p>
-
-<p>예상대로의 결과가 나왔나요? 좋아요, 자 이제 이것들을 다 부수고, 무슨 일이 일어나는지 봅시다.</p>
-
-<p>이번에는 color + day * fishes. color 는 yellow 이고, day 는 Monday 이며, fishes 는 3입니다.</p>
-
-<p>우리가 이걸 파이썬에게 계산하도록 하면, 어떤 값이 나올까요? 한번 해봅시다.</p>
-
-<p>(‘yellowMondayMondayMonday’)</p>
-
-<p>여러분은 파이썬에게 기대할거에요. color와 day를 먼저 연결시키고, 이 문자열을 3번 곱한다.</p>
-
-<p>여러분 이전에 연산의 우선순위에 대해 이야기한 것을 기억하나요? 아닌가요? 괜찮아요! 연산의</p>
-
-<p>순서는 표현식의 어느 부분이 먼저 계산되는지를 결정하는 규칙입니다</p>
-
-<p>대부분의 프로그래밍 언어에서 곱하기는 항상 더하기 또는 빼기 전에 수행되요.</p>
-
-<p>그래서 이 경우도 파이썬은 먼저 곱셈을 연산을 해서 Monday 단어를 3번 받고, 그 단어를 yellow와 연결한 것이지요.</p>
-
-<p>그러나 더하기를 먼저 수행하려면 표현식에서 “color + day” 주위에 괄호를 칠 수 있습니다.</p>
-
-<p>(color + day) * fishes 이 경우 “yellow” 문자열이 먼저 “Monday”문자열과 연결되며, 그 다음 이 값이 3으로 곱해질 것입니다.</p>
-
-<p>그래서 yellowMondayMondayMonday 대신 yellowMondayyellowMondayyellowMonday로 끝날 것입니다.</p>
-
+</div>
 
         </article>
     </main>
@@ -140,7 +103,7 @@ String operations
       <a href="/PYCONKR-YoungCoder/15/">
         <li class="prev">
           <span class="icon-arrow-left"></span>
-          <h4 class="pagination-title">파이썬과 말해봐요 - (변수) 이름을 바꿔주세요</h4>
+          <h4 class="pagination-title">(변수) 연산자를 가지고 좀더 놀아볼까요?</h4>
         </li>
       </a>
       
@@ -152,7 +115,7 @@ String operations
        
       <a href="/PYCONKR-YoungCoder/17/">
         <li class="next">
-          <h4 class="pagination-title">파이썬과 말해봐요 - (변수) 위치를 찾아보세요</h4>
+          <h4 class="pagination-title">(변수) 서로 비교해보세요</h4>
           <span class="icon-arrow-right"></span>
         </li>
       </a>

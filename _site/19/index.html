@@ -4,18 +4,23 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="```python            “friend” * 5‘friendfriendfriendfriendfriend’      ">
+  <meta name="description" content="  &gt;&gt;&gt; "friend" + 5Traceback (most recent call last):  File "&lt;stdin&gt;", line 1, in &lt;module&gt;TypeError: Can't convert 'int' object to str im...">
   <meta property="og:site_name" content="파이썬으로 말해요 - PYCON Young Coder Tutorial">
   
-  <meta property="og:title" content="파이썬과 말해봐요 - (에러) 오류가 발생했어요">
+  <meta property="og:title" content="(에러) 오류를 읽어보아요">
   <meta property="og:type" content="article">
-  <meta property="og:description" content="```python
+  <meta property="og:description" content="
+  &gt;&gt;&gt; "friend" + 5
+Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+TypeError: Can't convert 'int' object to str implicitly
+    ^              ^       ^              ^
 
   
-    
-      “friend” * 5
-‘friendfriendfriendfriendfriend’
-    
+  
+    ‘int’ is an integer
+    ‘str’ is a string
+    Python cannot concatenate objects of different types
   
 
 
@@ -32,7 +37,7 @@
   
   
   <title>
-     파이썬과 말해봐요 - (에러) 오류가 발생했어요
+     (에러) 오류를 읽어보아요
     
   </title>
   <!-- stylesheet -->
@@ -68,30 +73,32 @@
     <main class="page-content">
       <div class="wrapper">
         <article>
-          <div class="language-python summary highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="s">"friend"</span> <span class="o">*</span> <span class="mi">5</span>
-<span class="err">‘</span><span class="n">friendfriendfriendfriendfriend</span><span class="err">’</span>
+          <div id="ppt">
+  <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="s">"friend"</span> <span class="o">+</span> <span class="mi">5</span>
+<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s">"&lt;stdin&gt;"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="nb">TypeError</span><span class="p">:</span> <span class="n">Can</span><span class="s">'t convert '</span><span class="nb">int</span><span class="s">' object to str implicitly</span><span class="err">
+</span><span class="s">    ^              ^       ^              ^</span><span class="err">
+</span></code></pre>
+  </div>
+  <ul>
+    <li>‘int’ is an integer</li>
+    <li>‘str’ is a string</li>
+    <li>Python cannot concatenate objects of different types</li>
+  </ul>
 
-<span class="o">&gt;&gt;&gt;</span> <span class="s">"friend"</span> <span class="o">+</span> <span class="mi">5</span>
-<span class="n">Error</span>
-</code></pre>
 </div>
-<div class="highlighter-rouge"><pre class="highlight"><code>Traceback (most recent call last):
-  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
-TypeError: Can't convert 'int' object to str implicitly
-</code></pre>
+
+<div id="desc">
+  <h1 id="section">(에러) 오류를 읽어보아요</h1>
+
+  <p>Now let’s take a look at that error message and see what it’s really telling us.</p>
+
+  <p>The first two lines are pretty common to all error messages, so they won’t really help us much here.  But the last line gives us some valuable information.</p>
+
+  <p>We tried to concatenate two pieces of data - which Python calls ‘objects’ - the string “friend” and the number 5.  But Python isn’t able to concatenate those two objects because they’re of different types.  And so we get what’s called a “TypeError”.</p>
+
 </div>
-<ul>
-  <li>What do you think ‘str’ and ‘int’ mean here?</li>
-  <li>Does this error message tell you what’s wrong?</li>
-</ul>
-
-<p>Now we’re going to talk about something that’s really important in programming - errors and error messages.</p>
-
-<p>Error messages are our friends - they’re a good thing, because they tell us what went wrong.  Without error messages, it’s hard to fix something that’s broken.</p>
-
-<p>Try entering these expressions and see what answers Python gives you.  The first expression multiplies the word ‘friend’ and prints it 5 times.</p>
-
-<p>What is the second expression supposed to do?  Should it concatenate “friend” and 5?  What happens instead?</p>
 
         </article>
     </main>
@@ -102,7 +109,7 @@ TypeError: Can't convert 'int' object to str implicitly
       <a href="/PYCONKR-YoungCoder/18/">
         <li class="prev">
           <span class="icon-arrow-left"></span>
-          <h4 class="pagination-title">파이썬과 말해봐요 - (변수) 서로 비교해보세요</h4>
+          <h4 class="pagination-title">(에러) 오류가 발생했어요</h4>
         </li>
       </a>
       
@@ -114,7 +121,7 @@ TypeError: Can't convert 'int' object to str implicitly
        
       <a href="/PYCONKR-YoungCoder/20/">
         <li class="next">
-          <h4 class="pagination-title">파이썬과 말해봐요 - (에러) 오류를 읽어보아요</h4>
+          <h4 class="pagination-title">(에러) 오류를 고쳐보세요</h4>
           <span class="icon-arrow-right"></span>
         </li>
       </a>

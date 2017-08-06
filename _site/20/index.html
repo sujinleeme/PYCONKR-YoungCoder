@@ -4,22 +4,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="&gt;&gt;&gt; "friend" + 5Traceback (most recent call last):  File "&lt;stdin&gt;", line 1, in &lt;module&gt;TypeError: Can't convert 'int' object to str impl...">
+  <meta name="description" content="  &gt;&gt;&gt; "friend" + 5Error    How can we fix this error?Concatenation won’t work.">
   <meta property="og:site_name" content="파이썬으로 말해요 - PYCON Young Coder Tutorial">
   
-  <meta property="og:title" content="파이썬과 말해봐요 - (에러) 오류를 읽어보아요">
+  <meta property="og:title" content="(에러) 오류를 고쳐보세요">
   <meta property="og:type" content="article">
-  <meta property="og:description" content="&gt;&gt;&gt; "friend" + 5
-Traceback (most recent call last):
-  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
-TypeError: Can't convert 'int' object to str implicitly
-    ^              ^       ^              ^
+  <meta property="og:description" content="
+  &gt;&gt;&gt; "friend" + 5
+Error
 
-
-
-  ‘int’ is an integer
-  ‘str’ is a string
-  Python cannot concatenate objects of different types
+  
+  How can we fix this error?
+Concatenation won’t work.
 
 
 "/>
@@ -35,7 +31,7 @@ TypeError: Can't convert 'int' object to str implicitly
   
   
   <title>
-     파이썬과 말해봐요 - (에러) 오류를 읽어보아요
+     (에러) 오류를 고쳐보세요
     
   </title>
   <!-- stylesheet -->
@@ -71,24 +67,37 @@ TypeError: Can't convert 'int' object to str implicitly
     <main class="page-content">
       <div class="wrapper">
         <article>
-          <div class="language-python summary highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="s">"friend"</span> <span class="o">+</span> <span class="mi">5</span>
-<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
-  <span class="n">File</span> <span class="s">"&lt;stdin&gt;"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="nb">TypeError</span><span class="p">:</span> <span class="n">Can</span><span class="s">'t convert '</span><span class="nb">int</span><span class="s">' object to str implicitly</span><span class="err">
-</span><span class="s">    ^              ^       ^              ^</span><span class="err">
-</span></code></pre>
+          <div id="ppt">
+  <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="s">"friend"</span> <span class="o">+</span> <span class="mi">5</span>
+<span class="n">Error</span>
+</code></pre>
+  </div>
+  <p>How can we fix this error?
+Concatenation won’t work.</p>
+
+  <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="s">"friend"</span> <span class="o">+</span> <span class="s">"5"</span>
+<span class="n">friend5</span> 
+</code></pre>
+  </div>
+  <p>What if we make 5 a string?</p>
+
+  <p>What’s another way that we could fix this error?
+Let’s do something new with the print command:</p>
+
+  <div class="highlighter-rouge"><pre class="highlight"><code>&gt;&gt;&gt; print("friend", 5)
+friend 5
+</code></pre>
+  </div>
 </div>
-<ul>
-  <li>‘int’ is an integer</li>
-  <li>‘str’ is a string</li>
-  <li>Python cannot concatenate objects of different types</li>
-</ul>
 
-<p>Now let’s take a look at that error message and see what it’s really telling us.</p>
+<div id="desc">
+  <h1 id="section">(에러) 오류를 고쳐보세요</h1>
 
-<p>The first two lines are pretty common to all error messages, so they won’t really help us much here.  But the last line gives us some valuable information.</p>
+  <div class="teacher">
+    <p>(point out the comma used with the print command, and how it adds a space between the two objects)</p>
+  </div>
 
-<p>We tried to concatenate two pieces of data - which Python calls ‘objects’ - the string “friend” and the number 5.  But Python isn’t able to concatenate those two objects because they’re of different types.  And so we get what’s called a “TypeError”.</p>
+</div>
 
         </article>
     </main>
@@ -99,7 +108,7 @@ TypeError: Can't convert 'int' object to str implicitly
       <a href="/PYCONKR-YoungCoder/19/">
         <li class="prev">
           <span class="icon-arrow-left"></span>
-          <h4 class="pagination-title">파이썬과 말해봐요 - (에러) 오류가 발생했어요</h4>
+          <h4 class="pagination-title">(에러) 오류를 읽어보아요</h4>
         </li>
       </a>
       
@@ -109,9 +118,9 @@ TypeError: Can't convert 'int' object to str implicitly
         </li>
       </a>
        
-      <a href="/PYCONKR-YoungCoder/21/">
+      <a href="/PYCONKR-YoungCoder/85/">
         <li class="next">
-          <h4 class="pagination-title">파이썬과 말해봐요 - (에러) 오류를 고쳐보세요</h4>
+          <h4 class="pagination-title">게임을 만들어 봅시다! - (게임)</h4>
           <span class="icon-arrow-right"></span>
         </li>
       </a>

@@ -4,12 +4,15 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="프롬프트에 아래 명령어를 입력해보세요.">
+  <meta name="description" content="  프롬프트에 아래 명령어를 입력해보세요.10.0, 17.31과 같이 나오는 것이 10진수 소수점이라고 해요.">
   <meta property="og:site_name" content="파이썬으로 말해요 - PYCON Young Coder Tutorial">
   
-  <meta property="og:title" content="파이썬과 말해봐요 - (수학) 소수점">
+  <meta property="og:title" content="파이썬과 말해봐요 - (수학) 소수점을 정수로 만들기">
   <meta property="og:type" content="article">
-  <meta property="og:description" content="프롬프트에 아래 명령어를 입력해보세요.
+  <meta property="og:description" content="
+  프롬프트에 아래 명령어를 입력해보세요.
+10.0, 17.31과 같이 나오는 것이 10진수 소수점이라고 해요.
+
 
 "/>
   
@@ -24,7 +27,7 @@
   
   
   <title>
-     파이썬과 말해봐요 - (수학) 소수점
+     파이썬과 말해봐요 - (수학) 소수점을 정수로 만들기
     
   </title>
   <!-- stylesheet -->
@@ -60,40 +63,61 @@
     <main class="page-content">
       <div class="wrapper">
         <article>
-          <p>프롬프트에 아래 명령어를 입력해보세요.</p>
+          <div id="ppt">
+  <p>프롬프트에 아래 명령어를 입력해보세요.
+<code class="highlighter-rouge">10.0</code>, <code class="highlighter-rouge">17.31</code>과 같이 나오는 것이 10진수 소수점이라고 해요.</p>
 
-<div class="language-python summary highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">6</span> <span class="o">*</span> <span class="mi">5</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="mi">6</span> <span class="o">/</span> <span class="mi">2</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="mi">10</span> <span class="o">*</span> <span class="mi">5</span> <span class="o">*</span> <span class="mi">3</span>
+  <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">10</span><span class="o">/</span><span class="mi">3</span>
+<span class="mf">3.3333333333333335</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="mi">10</span><span class="o">/</span><span class="mi">2</span>
+<span class="mf">5.0</span>
 </code></pre>
-</div>
-<ul>
-  <li>나누기 : <code class="highlighter-rouge">/</code></li>
-  <li>곱셉 : <code class="highlighter-rouge">*</code></li>
-</ul>
+  </div>
 
-<p>여기 몇 가지 기호, 연산자가 더 있어요.</p>
+  <p>Integers: 9, -55</p>
 
-<p>나누기를 하려면 우리는 슬래시라고 불리는 경사 선을 사용합니다.</p>
-
-<p>그리고 곱하기를 하려면 우리는 별표라고 불리는 기호를 사용하죠.</p>
-
-<p>이 표현식들을 직접 사용해보고 어떤 일들이 일어나는지 한번 봅시다.</p>
-
-<p>내가 이 예제들을 타이핑하는 동안 여러분들도 자유롭게 다른 숫자와 연산자들을 직접 사용해보세요.</p>
-
-<p>나누기도 더 해볼까요</p>
-
-<div class="language-python summary highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">8</span> <span class="o">/</span> <span class="mi">4</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="mi">20</span> <span class="o">/</span> <span class="mi">7</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="mi">10</span> <span class="o">/</span> <span class="mi">3</span>
+  <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="nb">round</span><span class="p">(</span><span class="mi">10</span><span class="o">/</span><span class="mi">3</span><span class="p">)</span>
+<span class="mi">3</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">round</span><span class="p">(</span><span class="mi">10</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span>
+<span class="mi">5</span>
 </code></pre>
+  </div>
+
 </div>
 
-<p>생각했던 결과가 나오나요?</p>
+<div id="desc">
+  <h1 id="section">파이썬과 말해봐요 - (수학) 소수점을 정수로 만들기</h1>
+  <p>파이썬이 숫자로 어떻게 작동하는지 배워봅시다!</p>
 
-<p>결과가 소수점으로 나왔나요?</p>
+  <p>파이썬에서 그리고 많은 다양한 프로그래밍 언어에는 <code class="highlighter-rouge">float()</code>라고 하는 소수점 표현하는 함수가 있어요</p>
 
+  <p>왼쪽에는 10진수 또는 소수점의 몇 가지 예가 있습니다.</p>
+
+  <p>그리고 오른쪽에서 정수 또는 정수의 몇 가지 예를 볼 수 있습니다.</p>
+
+  <p>나눗셈을 사용하여 수학 표현식을 타이핑하면 파이썬은 float, 10진수를 돌려 줍니다.</p>
+
+  <p>파이썬은 가능한 가장 정확한 것을 돌려주기 위해 기본적으로 소수점을 사용합니다.</p>
+
+  <p>대신에 정수를 원하면 파이썬 함수인 <code class="highlighter-rouge">round()</code>를 사용하면 됩니다. ‘round’라는 단어를 입력하고 
+괄호 안쪽에 나누기 표현식 중 하나를 입력한 다음 Enter 키를 누릅니다.</p>
+
+  <p>다른 숫자를 사용하여 몇 가지 표현을 시도해보세요! 더 잘 이해가 되실거에요.</p>
+
+  <p>파이썬이 돌려주는 값들에 대해 이야기 해보았는데요, 프롬프트에서 무언가를 입력하고 ‘Enter’를 누르면 파이썬에게 질문을 하는 것이고, 답을 돌려 받을 수 있게 됩니다.</p>
+
+  <p>저는 이런 식을 ‘표현식’이라고 할건데, 앞으로 계속 배우게 될 것입니다.</p>
+
+  <p>우리가 수학 문제들을 표현식으로 사용했지만, 표현식을 훨씬 다양하게 활용되고, 앞으로 다양한 단어들과 기호들로 표현을 보게 될거에요.</p>
+
+  <p>예로 연습을 해봅시다. 당신은 다양한 답을 얻게 될 수 있어요. 
+이 표현식들을 프롬프트에 각각 입력해보고, 엔터 키를 눌러 결과를 하나씩 보세요.</p>
+
+  <p>화면의 우측에 비교 연산자 각각의 의미가 무엇인지 기억할 수 있게 도움말로 가이드를 해두었어요.
+시간을 가지고, 하나씩 해보세요.</p>
+
+  <p>float 를 사용하니 어떤가요? 차이가 느껴지나요?</p>
+</div>
 
         </article>
     </main>
@@ -116,7 +140,7 @@
        
       <a href="/PYCONKR-YoungCoder/08/">
         <li class="next">
-          <h4 class="pagination-title">파이썬과 말해봐요 - (수학) 소수점을 정수로 만들기</h4>
+          <h4 class="pagination-title">(수학) 참과 거짓</h4>
           <span class="icon-arrow-right"></span>
         </li>
       </a>

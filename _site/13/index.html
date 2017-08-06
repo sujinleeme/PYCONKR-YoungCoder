@@ -4,15 +4,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="Rules:Each character’s position is called its index.Indexes start at 0.Spaces inside the string are counted.">
+  <meta name="description" content="  Calculate a value:  &gt;&gt;&gt; 12 * 12 144  ">
   <meta property="og:site_name" content="파이썬으로 말해요 - PYCON Young Coder Tutorial">
   
-  <meta property="og:title" content="파이썬과 말해봐요 - (문자열) 배운 내용 정리하기">
+  <meta property="og:title" content="(변수) 이름을 붙여주세요">
   <meta property="og:type" content="article">
-  <meta property="og:description" content="Rules:
-Each character’s position is called its index.
-Indexes start at 0.
-Spaces inside the string are counted.
+  <meta property="og:description" content="
+  Calculate a value:
+  &gt;&gt;&gt; 12 * 12
+ 144
+
+  
+
 
 "/>
   
@@ -27,7 +30,7 @@ Spaces inside the string are counted.
   
   
   <title>
-     파이썬과 말해봐요 - (문자열) 배운 내용 정리하기
+     (변수) 이름을 붙여주세요
     
   </title>
   <!-- stylesheet -->
@@ -63,18 +66,52 @@ Spaces inside the string are counted.
     <main class="page-content">
       <div class="wrapper">
         <article>
-          <p class="summary">Rules:
-Each character’s position is called its index.
-Indexes start at 0.
-Spaces inside the string are counted.</p>
+          <div id="ppt">
+  <p>Calculate a value:</p>
+  <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">12</span> <span class="o">*</span> <span class="mi">12</span>
+ <span class="mi">144</span>
+</code></pre>
+  </div>
 
-<p>문자열의 인덱스에 대해 몇 가지 규칙들을 기억해봅시다.</p>
+  <p>How can you save that value?
+Give the value a name:</p>
+  <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">donuts</span> <span class="o">=</span> <span class="mi">12</span> <span class="o">*</span> <span class="mi">12</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">donuts</span>
+ <span class="mi">144</span>
+</code></pre>
+  </div>
+</div>
 
-<p>우리는 문자열 안에서 각각의 글자는 포지션을 갖고 있다는 것을 알게 되었어요. 그 포지션을 우리는 인덱스라고 부릅니다.</p>
+<div id="desc">
+  <h1 id="section">(변수) 이름을 붙여주세요</h1>
 
-<p>파이썬에서 다양한 프로그래밍 언어에서도 우리는 1이 아닌 0부터 인덱스를 세는 것도 알게 되었어요.</p>
+  <p>지금까지 우리는 컴퓨터 기초에 대해 조금 배웠고, 파이썬을 사용해 숫자와 문자열로 작업을 해보았어요.</p>
 
-<p>그리고 마지막으로 우리는 문자열에서 공백도 카운팅 된다는 것도 알게 되었어요.</p>
+  <p>이제 파이썬에서 데이터로 작업을 하는 또 다른 방법 (변수라고 불리는)을 살펴 보겠습니다.</p>
+
+  <p>수식을 사용하여 값을 계산한다고 가정 해보십시오. 우리는 이미 이것을 했습니다. 그것은 매우 간단합니다, 맞죠?</p>
+
+  <p>처음에 첫 번째 작업을 해봅시다. 12 * 12 를 입력하고 Enter 키를 누릅니다. 아마도 값이 144를 얻게 되겠지요.
+  
+하지만 그 값을 다시 사용하려면 어떻게 해야할까요?</p>
+
+  <p>12 * 12를 다시 입력 할 수 있지만 프로그램을 작성하는 경우 그렇게 되면 매우 많이 입력해야 할 수 있습니다.</p>
+
+  <p>운 좋게도 파이썬은 우리에게 더 쉬운 방법을 제공합니다. 여러분은 그 값에 이름을 줄 수 있습니다.  그리고 그 이름을 계속해서 다시 사용할 수 있습니다.</p>
+
+  <p>두 번째 예를 살펴보세요. 여기서 우리는 ‘도넛 (donuts)’이라는 이름을 사용해 도너츠는 12 * 12 한 값과 같다고 말하고 12 * 12한 값을 도너츠라는 이름에 할당을 해줍니다.</p>
+
+  <p>두번 째 예제와 같이 정확하게 타이핑을 해보고 보세요. 도너츠는 12 * 12와 같다 하고 엔터를 누릅니다. 그리고 도너츠를 입력하세요.</p>
+
+  <p>답변을 얻지 않아도됩니다. 아직 요청하지 않았습니다. 그러나 도넛을 다시 입력하고 Enter를 누르십시오. 값이 보이나요?</p>
+
+  <p>도넛을 여러 번 계속 입력하고 입력하십시오. 당신은 항상 같은 값을 얻게 됩니다.</p>
+
+  <p>‘도넛’이라는 단어에는 따옴표가 없습니다. 주위에 따옴표가 있으면 파이썬은 그것을 문자열처럼 취급합니다.</p>
+
+  <p>따옴표가 없으면 Python은 그것이 변수라는 것을 압니다.</p>
+
+</div>
 
         </article>
     </main>
@@ -85,7 +122,7 @@ Spaces inside the string are counted.</p>
       <a href="/PYCONKR-YoungCoder/12/">
         <li class="prev">
           <span class="icon-arrow-left"></span>
-          <h4 class="pagination-title">파이썬과 말해봐요 - (문자열) 문자의 위치 찾기</h4>
+          <h4 class="pagination-title">(문자열) 배운 내용 정리하기</h4>
         </li>
       </a>
       
@@ -97,7 +134,7 @@ Spaces inside the string are counted.</p>
        
       <a href="/PYCONKR-YoungCoder/14/">
         <li class="next">
-          <h4 class="pagination-title">파이썬과 말해봐요 - (변수) 이름을 붙여주세요</h4>
+          <h4 class="pagination-title">(변수) 이름을 바꿔주세요</h4>
           <span class="icon-arrow-right"></span>
         </li>
       </a>
