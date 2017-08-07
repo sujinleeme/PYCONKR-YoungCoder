@@ -619,9 +619,6 @@ article {
   display: flex;
 }
 @media screen and (max-width: 600px) {
-  article {
-    display: grid;
-  }
   #ppt,
   #desc {
     width: 80%;
@@ -703,7 +700,7 @@ footer {
 }
 @media screen and (max-width: 600px) {
   article {
-    display: grid;
+    display: block;
   }
   ul.posts {
     height: 100px;
@@ -712,14 +709,18 @@ footer {
     font-size: 1.5rem;
   }
   ul.posts a:nth-child(1) {
-    padding-left: 30px;
+    padding-left: 15px;
   }
   ul.posts a:nth-child(2) {
     width: 10%;
     justify-content: center;
   }
   ul.posts a:nth-child(3) {
-    padding-right: 30px;
+    padding-right: 15px;
+  }
+  ul.posts li h4 {
+    font-size: 1rem;
+    margin: -10px 10px 0 10px;
   }
   ul.posts header .wrapper {
     width: 100% !important;
