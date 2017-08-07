@@ -11,6 +11,7 @@ ul.posts {
   height: 90px;
   justify-content: space-between;
   z-index: 9;
+  
 
   
   a {
@@ -34,8 +35,6 @@ ul.posts {
     width: @pagination--width;
     justify-content: flex-end;
     padding-right: @base-padding * 2; 
-
-
   }
   li {
     line-height: 1.5rem;
@@ -78,4 +77,34 @@ footer {
   width: 100%;
   background: #fff;
 
+}
+
+
+@media screen and (max-width: 600px) {
+  article {
+        display: grid;
+  }
+
+ul.posts {
+  height: 100px;
+  span {
+    font-size: 1.5rem;
+  }
+  a:nth-child(1){
+    padding-left: @base-padding ; 
+  }
+  a:nth-child(2){
+    width: 100 - (@pagination--width * 2);
+    justify-content: center;
+  }
+  a:nth-child(3){
+    padding-right: @base-padding ; 
+  }
+
+  
+  header  .wrapper {
+      width: 100% !important;
+  
+  }
+}
 }

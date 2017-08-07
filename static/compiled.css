@@ -601,6 +601,9 @@ pre > code {
 .highlight .il {
   color: #099;
 }
+header {
+  width: 100%;
+}
 #ppt {
   width: 50%;
   padding: 30px;
@@ -614,6 +617,27 @@ pre > code {
 }
 article {
   display: flex;
+}
+@media screen and (max-width: 600px) {
+  article {
+    display: grid;
+  }
+  #ppt,
+  #desc {
+    width: 80%;
+  }
+  #ppt {
+    margin-top: 30px;
+  }
+  .site-header {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+  }
+  .site-header h1 {
+    font-size: 0.9rem;
+  }
 }
 ul.posts {
   display: flex;
@@ -676,6 +700,30 @@ footer {
   bottom: 0;
   width: 100%;
   background: #fff;
+}
+@media screen and (max-width: 600px) {
+  article {
+    display: grid;
+  }
+  ul.posts {
+    height: 100px;
+  }
+  ul.posts span {
+    font-size: 1.5rem;
+  }
+  ul.posts a:nth-child(1) {
+    padding-left: 30px;
+  }
+  ul.posts a:nth-child(2) {
+    width: 10%;
+    justify-content: center;
+  }
+  ul.posts a:nth-child(3) {
+    padding-right: 30px;
+  }
+  ul.posts header .wrapper {
+    width: 100% !important;
+  }
 }
 #wrapper--cover {
   padding: 50px;
@@ -741,4 +789,35 @@ footer {
 }
 .chapter--title li > a {
   color: #ff4848;
+}
+@media screen and (max-width: 600px) {
+  .intro {
+    display: grid;
+    width: 100vw;
+    height: 100%;
+  }
+  #cover--left,
+  #cover--right {
+    width: 100vw !important;
+  }
+  #cover--left {
+    height: 30vh;
+  }
+  .cover {
+    font-size: 6px;
+  }
+  .cover h1 {
+    font-size: 1.5rem;
+  }
+  .cover p {
+    font-size: 1rem;
+  }
+  .chapter--title {
+    padding: 0;
+    margin-top: 30px;
+  }
+  .chapter--title ul {
+    padding-left: 30px;
+    margin: 0;
+  }
 }

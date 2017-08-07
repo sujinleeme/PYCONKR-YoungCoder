@@ -1,5 +1,7 @@
 @import "variables.less";
-
+header {
+  width: 100%;
+}
 #ppt {
   width: 50%;
   padding: @base-padding;
@@ -18,4 +20,27 @@
 
 article {
   display: flex;
+}
+
+
+@media screen and (max-width: 600px) {
+  article {
+        display: grid;
+  }
+  #ppt, #desc {
+    width: 80%;
+  }
+  #ppt {
+    margin-top: @base-padding;
+  }
+
+  .site-header {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    h1 {
+      font-size: 0.9rem;
+    }
+  }
 }
