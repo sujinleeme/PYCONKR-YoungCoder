@@ -24,7 +24,7 @@ permalink: /:categories/:title/
 
 # Authors
 author: 원저자 - Barbara Shaurette, Katie Cunningham
-translator: 함께 번역한 분들 - 이수진, 이은애, 배경은
+translator: 함께 번역한 분들 - 이수진, 이은애, 배경은, 박조은, 이효은
 # Build settings
 markdown: kramdown
 kramdown: 
