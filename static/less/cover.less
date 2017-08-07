@@ -1,0 +1,80 @@
+@import "variables.less";
+
+#wrapper--cover {
+  padding: 50px;
+}
+
+
+#cover--right {
+  width: 50%;
+}
+
+#cover--left {
+  width: 50%;
+  display: inline-grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.intro {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.cover {
+  background: @main--color;
+  h1, p {
+    font-family: 'Montserrat', 'NanumSquare';
+    color: #fff;
+    font-weight: 300;
+
+  }
+
+  h1 {
+    font-weight: 300;
+    font-size: 2.8rem;
+  }
+    
+  p {
+    font-size: 1.6rem;
+  }
+}
+.book--author > p{
+  font-size: 1rem;
+}
+
+.python-logo {
+  color: #fff;
+}
+
+.scroll {
+  overflow-y: scroll;
+  height: 100vh;
+  white-space: nowrap;
+}
+
+.chapter--title {
+  padding: @base-padding * 2;
+}
+
+.contents {
+  text-align: center;
+}
+
+.chapter--title {
+  ul {
+    padding: @base-padding;
+  }
+  h1 {
+    margin: 0 @base-padding;
+  }
+  li {
+    list-style: none;
+    padding: @base-padding / 4 ;
+  }
+  li > a{
+    color: @main--color;
+  }
+}

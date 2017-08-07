@@ -13,23 +13,26 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 파이콘한국 영코더 튜토리얼 - PYCONKR Young Coder Tutorial
-email: your-email@example.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+title: 파이썬으로 말해요 - PYCON Young Coder Tutorial
+email: sujinlee.me@gmail.com
+description:  파이콘코리아 2017
+baseurl: "/PYCONKR-YoungCoder"
 url: "https://sujinleeme.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sujinleeme
 github_username:  sujinleeme
 permalink: /:categories/:title/
 
+# Authors
+author: 원저자 - Barbara Shaurette, Katie Cunningham
+translator: 함께 번역한 분들 - 이수진, 이은애, 배경은
 # Build settings
 markdown: kramdown
+kramdown: 
+  parse_block_html: true
+  parse_span_html: true
+
 theme: minima
-plugins:
-  - jekyll-feed
+plugins: [jekyll-feed, jekyll-watch, jekyll-assets]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -42,3 +45,11 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - Guardfile
+    - Rakefile
+    - LICENSE
+    - README.md

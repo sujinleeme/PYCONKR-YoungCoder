@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ko">
   {% include head.html %}
-
   {% include header.html %}
-
   <body>
-    <h1 class="post-title">{{ page.title }}</h1>
-    <article class="post-content">
-      {{content}}
-    </article>
+    <main class="page-content">
+      <div class="wrapper">
+        <article>
+          {{content}}
+        </article>
+    </main>
+    {% include footer.html %}
   </body>
-  {% include pagination.html %}
-
-  {% include footer.html %}
+  </div>
 </html>
