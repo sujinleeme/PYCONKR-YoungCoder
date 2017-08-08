@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: 파이썬으로 말해요 - PYCON Young Coder Tutorial
 email: sujinlee.me@gmail.com
-description:  파이콘코리아 2017
+description:  청소년을 위한 파이썬 튜토리얼
 baseurl: "/PYCONKR-YoungCoder"
 url: "https://sujinleeme.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sujinleeme
@@ -24,7 +24,7 @@ permalink: /:categories/:title/
 
 # Authors
 author: 원저자 - Barbara Shaurette, Katie Cunningham
-translator: 함께 번역한 분들 - 이수진, 이은애, 배경은
+translator: 함께 번역한 분들 - 이수진, 이은애, 배경은, 박조은, 이효은
 # Build settings
 markdown: kramdown
 kramdown: 
