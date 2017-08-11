@@ -4,9 +4,11 @@
 
 * 원본 : https://github.com/mechanicalgirl/young-coders-tutorial/blob/master/2017/YoungCoders_2017_beginner.key
 
+* 사이트 : https://sujinleeme.github.io/PYCONKR-YoungCoder/
+
 ### 번역
 * 출판일 : 2017.08.07
-* 번역 : 이수진, 이은애 
+* 함께 번역하신 분들 :  이수진, 이은애, 배경은, 박조은, 이효은 
 
 ## 영코더 프로그램이란?
 영코더 프로그램은 어린이들과 청소년들을 파이콘 컨퍼런스에 초대하여 소프트웨어란 무엇이고, 어떻게 동작하는지, 전 세계 많은 사람들에게 사랑받고 있는 프로그래밍 언어인 "파이썬"를 소개하는 일일 워크샵 프로그램니다.
